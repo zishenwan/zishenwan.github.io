@@ -49,7 +49,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/zishenwan-cropped.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/zishenwan-cropped.png" class="hoverZoomLink"></a>
+              <a href="images/zishenwan-cropped.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/zishen_photo.png" class="hoverZoomLink"></a>
                 <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email: 
                 <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; zishenwan@gatech.edu
                 <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; zishenwan@g.harvard.edu
@@ -103,6 +103,49 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+       <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ff_image'>
+                      <img src='images/MAVFI.png' width="170"></div>
+                    <img src='images/MAVFI.png' width="170">
+                  </div>
+                  <script type="text/javascript">
+                    function ff_start() {
+                      document.getElementById('ff_image').style.opacity = "1";
+                    }
+    
+                    function ff_stop() {
+                      document.getElementById('ff_image').style.opacity = "0";
+                    }
+                    ff_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                	<a href="https://arxiv.org/pdf/2105.12882.pdf">
+                      <papertitle>MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles</papertitle> </a>
+                  <br>
+                  <a href="https://scholar.google.com/citations?user=2CwEc8MAAAAJ&hl=en">Yu-Shun Hsiao*</a>,
+                  <strong>Zishen Wan*</strong>,
+                  <a href="https://scholar.harvard.edu/tianyujia">Tianyu Jia</a>,
+                  <a href="https://www.kharghoshal.xyz">Radhika Ghosal</a>,
+                  <a href="https://scholar.google.com/citations?user=Uug6p-AAAAAJ&hl=en">Arijit Raychowdhury</a>,
+                  <a href="https://scholar.google.com/citations?user=vXHA_XYAAAAJ&hl=en">David Brooks</a>,
+                  <a href="https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en">Gu-Yeon Wei</a>,
+                  <a href="https://scholar.harvard.edu/vijay-janapa-reddi">Vijay Janapa Reddi</a>
+                  <br> <strong>(*Equal contributions with alphabetical order)</strong>
+                  <br>
+            		<a href="https://arxiv.org/pdf/2105.12882.pdf">arXiv</a> /
+            		<a href="https://github.com/harvard-edge/MAVBench/tree/mavfi">Code</a> /
+              		<a href="data/MAVFI2021.bib">Bibtex</a>
+                  <br>
+                  <p></p>
+                  <p>We build a ROS-based end-to-end fault analysis framework to understand the resilience of Micro Aerial Vehicles (MAVs) system, and propose two low overhead anomaly-based transient fault detection and recovery schemes. </p>
+                </td>
+              </tr> 
+
+
 
     <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -299,6 +342,7 @@
                   <br>
             <em>IEEE Circuits and Systems Magazine (<strong>CAS-M</strong>)</em>, 2021
               <br>
+              <a href="publication/CAS2021.pdf">Paper</a> / 
               <a href="https://arxiv.org/pdf/2009.06034.pdf">arXiv</a> / 
               <a href="data/CAS2020.bib">Bibtex</a>
                   <br>
@@ -703,7 +747,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last Update: Apr. 2021
+                Last Update: May. 2021
                 <br><br>
                 <a href="https://github.com/jonbarron/website">Website Template</a>
                 </p>
