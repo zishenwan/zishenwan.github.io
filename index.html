@@ -59,11 +59,12 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading>News</heading>  
                 <p></p><ul>
+                <li> [Feb. 2022] Paper "Improving Compute In-Memory ECC Reliability with Successive Correction" accepted to <strong>DAC 2022</strong>.</li>    
                 <li> [Jan. 2022] Paper <a href="https://arxiv.org/pdf/2202.08952.pdf"><papertitle>An Energy-Efficient and Runtime-Reconfigurable FPGA-Based Accelerator for Robotic Localization Systems</papertitle></a> accepted to <strong>CICC 2022</strong>.</li>  
                 <li> [Jan. 2022] I am awarded <strong>CRNCH PhD Fellowship</strong>, which is supported by Center for Research into Novel Computing Hierarchies.</li>
                 <li> [Jan. 2022] Invited Paper <a href="publication/ASPDAC2022.pdf"><papertitle>Circuit and System Technologies for Energy-Efficient Edge Robotics</papertitle></a> appeared at <strong>ASP-DAC 2022</strong>.</li>
                 <li> [Dec. 2021] I am selected as <strong>DAC Young Fellow</strong>, and win <strong>Best Research Video Award</strong> in Young Fellow Program at DAC 2021.</li>
-                <li> [Nov. 2021] Paper "FRL-FI: Transient Fault Analysis for Federated Reinforcement Learning-Based Navigation Systems" accepted to <strong>DATE 2022</strong>.</li>
+                <li> [Nov. 2021] Paper <a href="https://arxiv.org/pdf/2203.07276.pdf"><papertitle>FRL-FI: Transient Fault Analysis for Federated Reinforcement Learning-Based Navigation Systems</papertitle></a> accepted to <strong>DATE 2022</strong>.</li>
                 <li> [Nov. 2021] I win 4th place in ACM Student Research Competition at ICCAD 2021.</li>
                 <li> [Aug. 2021] I give a talk on "Fault Analysis for Autonomous Machines Reliability" at Center for Brain-Inspired Computing (C-BRIC), a JUMP Research Center cosponsored by SRC and DARPA.</li>
                 <li> [June. 2021] Book <a href="https://www.morganclaypool.com/doi/abs/10.2200/S01101ED1V01Y202105CAC056">
@@ -163,6 +164,43 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ff_image'>
+                      <img src='images/DAC2022.png' width="160"></div>
+                    <img src='images/DAC2022.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function ff_start() {
+                      document.getElementById('ff_image').style.opacity = "1";
+                    }
+    
+                    function ff_stop() {
+                      document.getElementById('ff_image').style.opacity = "0";
+                    }
+                    ff_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Improving Compute In-Memory ECC Reliability with Successive Correction</papertitle>
+                    <br>
+                    Brian Crafton,
+                    <strong>Zishen Wan</strong>,
+                    Samuel Spetalnick,
+                    Jong-Hyeok Yoon, 
+                    Wei Wu, 
+                    Carlos Tokunaga, 
+                    Vivek De, 
+                    Arijit Raychowdhury
+                    <br>
+                    <em>ACM/IEEE Design Automation Conference (<strong>DAC</strong>)</em>, 2022
+                   <br>
+                  <p></p>
+                  <p>We propose a new ECC scheme for hard and soft errors in foundry RRAM-based Compute-In-Memory chip. We demonstrate single, double, and triple error correction offering up to 16,000× reduction in bit error rate, while consuming only 29.1% area and 26.3% power overhead.</p>
+                </td>
+              </tr> 
 
     <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -274,6 +312,44 @@
                   <br>
                   <p></p>
                   <p>We present a series of ultra-low-power accelerator and system designs on enabling the intelligence in edge robotic platforms, with an emphasis on mixed-signal circuit, neuro-inspired computing, benchmarking, software infrastructure, and algorithm-hardware co-design.</p>
+                </td>
+              </tr> 
+
+       <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ff_image'>
+                      <img src='images/skyline2021.png' width="170"></div>
+                    <img src='images/skyline2021.png' width="170">
+                  </div>
+                  <script type="text/javascript">
+                    function ff_start() {
+                      document.getElementById('ff_image').style.opacity = "1";
+                    }
+    
+                    function ff_stop() {
+                      document.getElementById('ff_image').style.opacity = "0";
+                    }
+                    ff_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/pdf/2111.03792.pdf">
+                      <papertitle>Roofline Model for UAVs: A Visual Performance Model for Guiding Compute System Design in Autonomous Drones</papertitle> </a>
+                  <br>
+                  <a href="https://scholar.google.co.in/citations?user=6ZHXDkAAAAAJ&hl=en">Srivatsan Krishnan</a>,
+                  <strong>Zishen Wan</strong>,
+                  <a href="https://www.kshitijbhardwaj.com">Kshitij Bhardwaj</a>,
+                  <a href="https://www.afaust.info">Aleksandra Faust</a>,
+                  <a href="https://scholar.harvard.edu/vijay-janapa-reddi">Vijay Janapa Reddi</a>
+                  <br>
+                  <em>IEEE International Symposium on Performance Analysis of Systems and Software <strong>(ISPASS)</strong></em>, 2022
+                  <br>
+                <a href="https://arxiv.org/pdf/2111.03792.pdf">Paper</a> /
+                  <a href="data/skyline2021.bib">Bibtex</a>
+                  <br>
+                  <p></p>
+                  <p>We present a bottleneck analysis tool, Skyline, for designing compute systems for autonomous Unmanned Aerial Vehicles (UAV). The tool provides insights by exploiting the fundamental relationships between various components in the autonomous UAV such as sensor, compute, body dynamics. </p>
                 </td>
               </tr> 
 
@@ -482,43 +558,7 @@
               </tr> 
 
 
-       <tr onmouseout="ff_stop()" onmouseover="ff_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='ff_image'>
-                      <img src='images/skyline2021.png' width="170"></div>
-                    <img src='images/skyline2021.png' width="170">
-                  </div>
-                  <script type="text/javascript">
-                    function ff_start() {
-                      document.getElementById('ff_image').style.opacity = "1";
-                    }
-    
-                    function ff_stop() {
-                      document.getElementById('ff_image').style.opacity = "0";
-                    }
-                    ff_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/pdf/2111.03792.pdf">
-                      <papertitle>Roofline Model for UAVs: A Visual Performance Model for Guiding Compute System Design in Autonomous Drones</papertitle> </a>
-                  <br>
-                  <a href="https://scholar.google.co.in/citations?user=6ZHXDkAAAAAJ&hl=en">Srivatsan Krishnan</a>,
-                  <strong>Zishen Wan</strong>,
-                  <a href="https://www.kshitijbhardwaj.com">Kshitij Bhardwaj</a>,
-                  <a href="https://www.afaust.info">Aleksandra Faust</a>,
-                  <a href="https://scholar.harvard.edu/vijay-janapa-reddi">Vijay Janapa Reddi</a>
-                  <br>
-                  <em>Pre-print</em>, 2021
-                  <br>
-                <a href="https://arxiv.org/pdf/2111.03792.pdf">Paper</a> /
-                  <a href="data/skyline2021.bib">Bibtex</a>
-                  <br>
-                  <p></p>
-                  <p>We present a bottleneck analysis tool, Skyline, for designing compute systems for autonomous Unmanned Aerial Vehicles (UAV). The tool provides insights by exploiting the fundamental relationships between various components in the autonomous UAV such as sensor, compute, body dynamics. </p>
-                </td>
-              </tr> 
+
 
        <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
