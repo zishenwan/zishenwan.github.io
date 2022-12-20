@@ -60,9 +60,10 @@
                 <heading>News</heading>  
                 <div style="height:500px;overflow-y:auto">
                 <p></p><ul>
-                <li> [Nov. 2022] <b style="color:#FF2400;">[Award]</b> I received 1st place in ACM Studemt Research Competition (SRC) at ESWEEK2022.</li>
+                <li> [Dec. 2022] <b style="color:#3EA055;">[Paper]</b> Our work <a href="https://arxiv.org/pdf/2105.12882.pdf"><papertitle>MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles</papertitle></a> accepted to <strong>DATE 2023</strong>.</li> 	
+                <li> [Nov. 2022] <b style="color:#FF2400;">[Award]</b> I received 1st place in <strong>ACM Studemt Research Competition (SRC)</strong> at ESWEEK 2022.</li>
                 <li> [Oct. 2022] <b style="color:#808080;">[Service]</b> We founded <strong>MLPerf (MLCommons) Resilience and Robustness Research Working Group</strong>. Join us if interested! (details coming soon)</li> 
-                <li> [Oct. 2022] <b style="color:#3EA055;">[Paper]</b> Our work "A 73.53TOPS/W 14.74TOPS Heterogeneous RRAM In-Memory and SRAM Near-Memory SoC for Hybrid Frame and Event-Based Target Tracking" accepted to <strong>ISSCC 2022</strong>.</li> 
+                <li> [Oct. 2022] <b style="color:#3EA055;">[Paper]</b> Our work "A 73.53TOPS/W 14.74TOPS Heterogeneous RRAM In-Memory and SRAM Near-Memory SoC for Hybrid Frame and Event-Based Target Tracking" accepted to <strong>ISSCC 2023</strong>.</li> 
                 <li> [Oct. 2022] <b style="color:Orange;">[Talk]</b> I give a talk on "Efficient SW/HW Co-Design for Robotic Computing" at <strong>2022 IBM AI Compute Symposium</strong>.</li> 
                 <li> [Sept. 2022] <b style="color:#3EA055;">[Paper]</b> Our work "Analyzing and Improving Resilience of Autonomous Machines" accepted to <strong>ICCAD 2022</strong>.</li> 
                 <li> [Sept. 2022] <b style="color:#FF2400;">[Award]</b> I am awarded <strong>Qualcomm Fellowship</strong>.</li>
@@ -137,9 +138,9 @@
                 [<a href="publication/ICLR2021.pdf">ICLR-W'21</a>]
                 [<a href="publication/SysML2020.pdf">MLSys-W'20</a>]
 				<li> To advance resilience and robustness of autonomous intelligent systems:</li> 
-        [ICCAD'22]
+                [<a href="https://arxiv.org/pdf/2105.12882.pdf">DATE'23</a>]
+                [ICCAD'22]
         [<a href="https://arxiv.org/pdf/2203.07276.pdf">DATE'22</a>]
-        [<a href="https://arxiv.org/pdf/2105.12882.pdf">MAVFI</a>]
         [<a href="https://dl.acm.org/doi/abs/10.1145/3489517.3530526">DAC'22</a>]
 				[<a href="https://arxiv.org/pdf/2111.04957.pdf">DAC'21</a>]
 				[<a href="publication/DAC2020.pdf">DAC'20</a>]
@@ -217,6 +218,51 @@
           </tr> 
         </tbody></table> 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+       <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ff_image'>
+                      <img src='images/MAVFI.png' width="170"></div>
+                    <img src='images/MAVFI.png' width="170">
+                  </div>
+                  <script type="text/javascript">
+                    function ff_start() {
+                      document.getElementById('ff_image').style.opacity = "1";
+                    }
+    
+                    function ff_stop() {
+                      document.getElementById('ff_image').style.opacity = "0";
+                    }
+                    ff_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                	<a href="https://arxiv.org/pdf/2105.12882.pdf">
+                      <papertitle>MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles</papertitle> </a>
+                  <br>
+                  <a href="https://scholar.google.com/citations?user=2CwEc8MAAAAJ&hl=en">Yu-Shun Hsiao*</a>,
+                  <strong>Zishen Wan*</strong>,
+                  <a href="http://scholar.pku.edu.cn/tianyujia">Tianyu Jia</a>,
+                  <a href="https://www.kharghoshal.xyz">Radhika Ghosal</a>,
+                  <a href="https://scholar.google.com/citations?user=Uug6p-AAAAAJ&hl=en">Arijit Raychowdhury</a>,
+                  <a href="https://scholar.google.com/citations?user=vXHA_XYAAAAJ&hl=en">David Brooks</a>,
+                  <a href="https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en">Gu-Yeon Wei</a>,
+                  <a href="https://scholar.harvard.edu/vijay-janapa-reddi">Vijay Janapa Reddi</a>
+                   <strong>(*alphabetical order)</strong>
+                  <br>
+                  <em>Design, Automation and Test in Europe Conference (<strong>DATE</strong>)</em>, 2023
+                  <br>
+            		<a href="https://arxiv.org/pdf/2105.12882.pdf">Paper</a> /
+            		<a href="publication/MAVFI_slide.pdf">Slides</a> /
+            		<a href="https://github.com/harvard-edge/MAVBench/tree/mavfi">Code</a> /
+              		<a href="data/MAVFI.bib">Bibtex</a>
+                  <br>
+                  <p></p>
+                  <p>We build a ROS-based end-to-end fault analysis framework to understand the resilience of Micro Aerial Vehicles (MAVs) system, and propose two low overhead anomaly-based transient fault detection and recovery schemes. </p>
+                </td>
+              </tr> 
 
     <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -617,50 +663,6 @@
                   <br>
                   <p></p>
                   <p>We evaluate the resilience of learning-based navigation systems to transient and permanent hardware faults. We further propose two efficient fault mitigation techniques for both RL training and inference.</p>
-                </td>
-              </tr> 
-
-       <tr onmouseout="ff_stop()" onmouseover="ff_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='ff_image'>
-                      <img src='images/MAVFI.png' width="170"></div>
-                    <img src='images/MAVFI.png' width="170">
-                  </div>
-                  <script type="text/javascript">
-                    function ff_start() {
-                      document.getElementById('ff_image').style.opacity = "1";
-                    }
-    
-                    function ff_stop() {
-                      document.getElementById('ff_image').style.opacity = "0";
-                    }
-                    ff_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                	<a href="publication/MAVFI.pdf">
-                      <papertitle>MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles</papertitle> </a>
-                  <br>
-                  <a href="https://scholar.google.com/citations?user=2CwEc8MAAAAJ&hl=en">Yu-Shun Hsiao*</a>,
-                  <strong>Zishen Wan*</strong>,
-                  <a href="http://scholar.pku.edu.cn/tianyujia">Tianyu Jia</a>,
-                  <a href="https://www.kharghoshal.xyz">Radhika Ghosal</a>,
-                  <a href="https://scholar.google.com/citations?user=Uug6p-AAAAAJ&hl=en">Arijit Raychowdhury</a>,
-                  <a href="https://scholar.google.com/citations?user=vXHA_XYAAAAJ&hl=en">David Brooks</a>,
-                  <a href="https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en">Gu-Yeon Wei</a>,
-                  <a href="https://scholar.harvard.edu/vijay-janapa-reddi">Vijay Janapa Reddi</a>
-                   <strong>(*alphabetical order)</strong>
-                  <br>
-                  <em>Pre-print</em>, 2021
-                  <br>
-            		<a href="publication/MAVFI.pdf">Paper</a> /
-            		<a href="publication/MAVFI_slide.pdf">Slides</a> /
-            		<a href="https://github.com/harvard-edge/MAVBench/tree/mavfi">Code</a> /
-              		<a href="data/MAVFI2021.bib">Bibtex</a>
-                  <br>
-                  <p></p>
-                  <p>We build a ROS-based end-to-end fault analysis framework to understand the resilience of Micro Aerial Vehicles (MAVs) system, and propose two low overhead anomaly-based transient fault detection and recovery schemes. </p>
                 </td>
               </tr> 
 
@@ -1169,7 +1171,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last Update: Nov. 2022
+                Last Update: Dec. 2022
                 <br><br>
                 <a href="https://github.com/jonbarron/website">Website Template</a>
                 </p>
