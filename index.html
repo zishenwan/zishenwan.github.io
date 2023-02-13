@@ -60,6 +60,7 @@
                 <heading>News</heading>  
                 <div style="height:500px;overflow-y:auto">
                 <p></p><ul>
+                <li> [Feb. 2023] <b style="color:#3EA055;">[Paper]</b> Our work "BERRY: Bit Error Robustness for Energy-Efficient Reinforcement Learning-Based Autonomous Systems" accepted to <strong>DAC 2023</strong>.</li>
                 <li> [Jan. 2023] <b style="color:#FF2400;">[Award]</b> Our work <a href="https://ieeexplore.ieee.org/document/9923818"><papertitle>AutoPilot</papertitle></a> is selected as Honorable Mention in <strong>IEEE Micro Top Picks 2023</strong>.</li>
                 <li> [Jan. 2023] <b style="color:#3EA055;">[Paper]</b> Our work "Real-Time Fully Unsupervised Domain Adaptation for Lane Detection in Autonomous Driving" accepted as Late Breaking Result in <strong>DATE 2023</strong>.</li> 	
                 <li> [Dec. 2022] <b style="color:#3EA055;">[Paper]</b> Our work <a href="publication/MAVFI.pdf"><papertitle>MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles</papertitle></a> accepted to <strong>DATE 2023</strong>.</li> 	
@@ -142,6 +143,7 @@
                 [<a href="publication/ICLR2021.pdf">ICLR-W'21</a>]
                 [<a href="publication/SysML2020.pdf">MLSys-W'20</a>]
 				<li> To advance resilience and robustness of autonomous intelligent systems:</li> 
+                [DAC'23]
                 [<a href="https://arxiv.org/pdf/2105.12882.pdf">DATE'23b</a>]
                 [<a href="publication/Wan2022ICCAD.pdf">ICCAD'22</a>]
         [<a href="https://arxiv.org/pdf/2203.07276.pdf">DATE'22</a>]
@@ -224,6 +226,43 @@
         </tbody></table> 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+       <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ff_image'>
+                      <img src='images/DAC23.png' width="170"></div>
+                    <img src='images/DAC23.png' width="170">
+                  </div>
+                  <script type="text/javascript">
+                    function ff_start() {
+                      document.getElementById('ff_image').style.opacity = "1";
+                    }
+    
+                    function ff_stop() {
+                      document.getElementById('ff_image').style.opacity = "0";
+                    }
+                    ff_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                      <papertitle>BERRY: Bit Error Robustness for Energy-Efficient Reinforcement Learning-Based Autonomous Systems</papertitle>
+                  <br>
+                  <strong>Zishen Wan</strong>,
+                  Nandhini Chandramoorthy,
+                  Karthik Swaminathan, 
+                  Pin-Yu Chen, 
+                  Vijay Janapa Reddi,
+                  Arijit Raychowdhury
+                  <br>
+                  <em>ACM/IEEE Design Automation Conference (<strong>DAC</strong>)</em>, 2023
+                  <br>
+            		Paper (To appear)
+                  <br>
+                  <p></p>
+                  <p>We propose BEERY, a robust learning framework to improve bit error robustness and energy efficiency for RL autonomous systems. BEERY enables robust low-voltage operation on UAVs, leading to high energy savings in both compute-level operation and system-level quality-of-flight.</p>
+                </td>
+              </tr> 
 
        <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -1148,7 +1187,7 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Honors and Awards</heading>  
-              		<li> 2023 IEEE Micro Top Picks Honorable Mention ("in recoginition of the most significant research papers in computer architecture")</li>
+              		<li> 2023 IEEE Micro Top Picks Honorable Mention ("in recognition of the most significant research papers in computer architecture")</li>
               		<li> 2022 1st place, ACM Student Research Competition at Embedded Systems Week (ESWEEK)</li>
               		<li> 2022 3rd Place, ACM Student Research Competition at International Conference On Computer-Aided Design (ICCAD) (declined)</li>
               		<li> 2022 Qualcomm Fellowship</li>
@@ -1179,18 +1218,21 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Talks</heading>  
  				<p></p><ul>
-          <li> Efficient Algorithm-Hardware Co-Design for Autonomous Machine Computing</li>
+ 		  <li> Intelligence in Robotic Computing: Exploring Agile Design Flows for Efficient and Resilient Autonomous Systems</li>
+ 		  - CRNCH (Center for Research into Novel Computing Hierarchies) Annual Summit, Atlanta, GA, Feb. 2023<br>
+ 		  - CRIDC (Career, Research, and Innovation Development Conference), Atlanta, GA, Feb. 2023<br>
           - ACM Student Research Competition at ICCAD, San Diego, CA, Nov. 2022<br>
+          <li> Efficient Algorithm-Hardware Co-Design for Autonomous Machine Computing</li>
           - 5th IBM AI Compute Symposium, IBM T.J. Watson Research Center, Yorktown Heights, NY, Oct. 2022<br>
-          - CBRIC (Center for Brain-Inspired Computing) Annual Summit, Purdue University, IN, Oct. 2022<br>
+          - CBRIC (Research Center for Brain-Inspired Computing) Annual Summit, DARPA JUMP SRC, Purdue University, IN, Oct. 2022<br>
           - Guest Lecture, Georgia Tech ECE8893 Parallel Programming for FPGAs (Host: Prof. Callie Hao), Atlanta, GA, Mar. 2022<br>
           - CRNCH (Center for Research into Novel Computing Hierarchies) Annual Summit, Online, Feb. 2022
           <li> Enabling Reliable and Safe Autonomous Systems</li>
           - ACM Student Research Competition at ESWEEK, Online, Nov. 2022<br>
           - COMPSAC plenary panel 'Reliability of Autonomous Machines', Online, Jun. 2022<br>
-          - CBRIC (Center for Brain-Inspired Computing) Annual Summit, Online, Oct. 2021<br>
-          - CBRIC (Center for Brain-Inspired Computing) Industry Talk, Online, Aug. 2021<br>
-          - Harvard VLSI-Arch Lab, Online, Jul. 2020
+          - CBRIC (Center for Brain-Inspired Computing) Annual Summit, DARPA JUMP SRC, Online, Oct. 2021<br>
+          - CBRIC (Center for Brain-Inspired Computing) Industry Talk, DARPA JUMP SRC, Online, Aug. 2021<br>
+          - Harvard Architecture, Circuits and Compilers Lab, Online, Jul. 2020
  				  <li> Edge Computing on Aerial Robots</li>
           - ACM Student Research Competition at ICCAD, Online, Nov. 2021<br>
           - Georgia Tech Integrated Circuits and System Research Lab, Online, Sept. 2020
@@ -1206,7 +1248,8 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Academic Service</heading>  
  				<p></p><ul>
- 					<li> Technical Program Committee: DAC'23, NPC'22.</li>
+ 				<li> Technical Program Committee: DAC'23, IJCAI'23, NPC'22.</li>
+ 				<li> Journal Reviewer: T-CAD.</li>
  				<li> Artifact Evaluation Committee: ASPLOS'23, MICRO'22, ASPLOS'22, IISWC'22.</li>
  				<li> Working Group: Co-found MLCommons (MLPerf) Resilience and Robustness Research Working Group.</li>
  				<li> Panelist: COMPSAC'22.</li>
@@ -1234,7 +1277,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last Update: Jan. 2023
+                Last Update: Feb. 2023
                 <br><br>
                 <a href="https://github.com/jonbarron/website">Website Template</a>
                 </p>
