@@ -61,6 +61,7 @@
                 <div style="height:500px;overflow-y:auto">
                 <p></p><ul>
                 <li> [May. 2023] <b style="color:#FF2400;">[Award]</b> I am selected as <a href="https://mlcommons.org/en/rising-stars-2023/"><papertitle>2023 ML and Systems Rising Star</papertitle></a>.</li>
+                <li> [May. 2023] <b style="color:#3EA055;">[Paper]</b> Our work "VPP: The Vulnerability-Proportional Protection Paradigm Towards Reliable Autonomous Machines" accepted to 5th Domain Specific System Architecture (DOSSA-5) Workshop at <strong>ISCA 2023</strong>.</li>
                 <li> [May. 2023] <b style="color:#3EA055;">[Paper]</b> Our work "Towards Cognitive AI Systems: A Survey and Prospective on Neuro-Symbolic AI" accepted to Next-Gen AI System Workshop at <strong>MLSys 2023</strong>.</li>
                 <li> [May. 2023] <b style="color:Orange;">[Talk]</b> I give invited talks and poster presentations on "Co-Design for Efficient and Resilient Autonomous Machine Computing" at Georgia Tech EIC Lab, Georgia Tech Chips Day, CoCoSys Annual Review, CRNCH Annual Review, and CRIDC'23.</li>
                 <li> [Apr. 2023] <b style="color:#FF2400;">[Award]</b> I am awarded Georgia Tech <strong>Roger P. Webb Graduate Research Assistant Excellence Award</strong>.</li>
@@ -146,18 +147,19 @@
                 [<a href="publication/CAS2021.pdf">CAS Magazine'21</a>]
                 [<a href="https://arxiv.org/pdf/2104.00192.pdf">AICAS'21a</a>]
                 [<a href="https://arxiv.org/pdf/2104.05112.pdf">AICAS'21b</a>]
-                [<a href="publication/ICLR2021.pdf">ICLR-W'21</a>]
-                [<a href="publication/SysML2020.pdf">MLSys-W'20</a>]
+                [<a href="publication/ICLR2021.pdf">ICLR'21(W)</a>]
+                [<a href="publication/SysML2020.pdf">MLSys'20(W)</a>]
 				<li> To advance resilience and robustness of autonomous intelligent systems:</li> 
-                [DAC'23]
+        [DAC'23]
+        [ISCA'23(W)]       
                 [<a href="https://arxiv.org/pdf/2105.12882.pdf">DATE'23b</a>]
                 [<a href="publication/Wan2022ICCAD.pdf">ICCAD'22</a>]
         [<a href="https://arxiv.org/pdf/2203.07276.pdf">DATE'22</a>]
         [<a href="https://dl.acm.org/doi/abs/10.1145/3489517.3530526">DAC'22</a>]
+        [<a href="publication/ICML22.pdf">ICML'22(W)</a>]
+        [<a href="http://nvmw.ucsd.edu/nvmw2022-program/nvmw2022-data/nvmw2022-paper45-final_version_your_extended_abstract.pdf">NVM'22(W)</a>]
 				[<a href="https://arxiv.org/pdf/2111.04957.pdf">DAC'21</a>]
 				[<a href="publication/DAC2020.pdf">DAC'20</a>]
-				[<a href="publication/ICML22.pdf">ICML-W'22</a>]
-				[<a href="http://nvmw.ucsd.edu/nvmw2022-program/nvmw2022-data/nvmw2022-paper45-final_version_your_extended_abstract.pdf">NVM-W'22</a>]
 				<li> To benchmark and automate the design flow of autonomous intelligent systems:</li> 
 				[IEEE Micro Top Picks'23]
 				[<a href="https://www.osti.gov/servlets/purl/1891233">MICRO'22</a>]
@@ -1067,6 +1069,42 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="uflow_stop()" onmouseover="uflow_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='uflow_image'>
+                  <img src='images/ISCA23-W.png' width="160"></div>
+                <img src='images/ISCA23-W.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function uflow_start() {
+                  document.getElementById('uflow_image').style.opacity = "1";
+                }
+
+                function uflow_stop() {
+                  document.getElementById('uflow_image').style.opacity = "0";
+                }
+                uflow_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>VPP: The Vulnerability-Proportional Protection Paradigm Towards Reliable Autonomous Machines</papertitle>
+              <br>
+              <strong>Zishen Wan*</strong>,
+              Yiming Gan*,
+              Bo Yu,
+              Shaoshan Liu,
+              Arijit Raychowdhury,
+              Yuhao Zhu
+              <br>
+              <em>International Symposium on Computer Architecture (<strong>ISCA</strong>) Fifth Workshop on Domain Specific System Architecture (DOSSA-5)</em>, 2023
+              <br>
+              Paper (To appear) 
+              <p></p>
+              <p>
+              We characterize the inherent robustenss and performance of various autonomous machine computing kernels, and propose a Vulnerable-Proportional Protection (VPP) design paradigm to provide high protection coverage while introducing little cost.</p>
+            </td>
+          </tr> 
 
           <tr onmouseout="uflow_stop()" onmouseover="uflow_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -1238,7 +1276,7 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Honors and Awards</heading>  
-              <li> 2023 Machine Learing and Systems Rising Star</li>
+              <li> 2023 Machine Learning and Systems Rising Star</li>
               <li> 2023 Roger P. Webb Graduate Research Assistant (GRA) Excellence Award, Georgia Tech</li>
               		<li> 2023 IEEE Micro Top Picks Honorable Mention ("in recognition of the most significant research papers in computer architecture")</li>
               		<li> 2022 1st place, ACM/SIGBED Student Research Competition</li>
