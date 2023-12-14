@@ -59,6 +59,8 @@
                 <heading>News</heading>  
                 <div style="height:500px;overflow-y:auto">
                 <p></p><ul>
+                <li> [Dec. 2023] <b style="color:Magenta;">[Book]</b> Our book <a href="https://harvard-edge.github.io/cs249r_book/">
+                    <papertitle>Machine Learning Systems with TinyML</papertitle></a> is released. By the Community, For the Community . </li>
                 <li> [Dec. 2023] <b style="color:#FF2400;">[Award]</b> I receive <strong>Best Poster Award</strong> at 2023 IBM IEEE AI Compute Symposium.</li>
                 <li> [Nov. 2023] <b style="color:#3EA055;">[Paper]</b> Our two works "MulBERRY" and "ORIANNA" accepted to <strong>ASPLOS 2024</strong>.</li>
                 <li> [Nov. 2023] <b style="color:#3EA055;">[Paper]</b> Our work "H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations" accepted to <strong>DATE 2024</strong>.</li>
@@ -96,7 +98,7 @@
                 <li> [Jan. 2022] <b style="color:#3EA055;">[Paper]</b> Our work <a href="https://arxiv.org/pdf/2202.08952.pdf"><papertitle>An Energy-Efficient and Runtime-Reconfigurable FPGA-Based Accelerator for Robotic Localization Systems</papertitle></a> accepted to <strong>CICC 2022</strong>.</li>  
                 <li> [Jan. 2022] <b style="color:#FF2400;">[Award]</b> I am awarded <strong>CRNCH PhD Fellowship</strong>, supported by Center for Novel Computing Hierarchies.</li>
                 <li> [Jan. 2022] <b style="color:#3EA055;">[Paper]</b> Invited Paper <a href="publication/ASPDAC2022.pdf"><papertitle>Circuit and System Technologies for Efficient Edge Robotics</papertitle></a> appeared at <strong>ASP-DAC 2022</strong>.</li>
-                <li> [Dec. 2021] <b style="color:#FF2400;">[Award]</b> I am selected as <strong>DAC Young Fellow</strong>, and win <strong>Best Research Video Award</strong> at DAC 2021.</li>
+                <li> [Dec. 2021] <b style="color:#FF2400;">[Award]</b> I am selected as <strong>DAC Young Fellow</strong>, and win <strong>Best Presentation Award</strong> at DAC 2021.</li>
                 <li> [Nov. 2021] <b style="color:#3EA055;">[Paper]</b> Our work <a href="https://arxiv.org/pdf/2203.07276.pdf"><papertitle>FRL-FI: Transient Fault Analysis for Federated Reinforcement Learning-Based Navigation Systems</papertitle></a> accepted to <strong>DATE 2022</strong>.</li>
                 <li> [Nov. 2021] <b style="color:#FF2400;">[Award]</b> I win 4th place in ACM Student Research Competition at ICCAD 2021.</li>
                 <li> [Aug. 2021] <b style="color:Orange;">[Talk]</b> I give a talk on "Fault Analysis for Autonomous Machines Reliability" at Center for Brain-Inspired Computing (C-BRIC), a JUMP Research Center cosponsored by SRC and DARPA.</li>
@@ -209,7 +211,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Book</heading>
+              <heading>Books</heading>
             </td>
           </tr>
         </tbody></table>
@@ -255,7 +257,57 @@
               </tr> 
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        
+  
+            <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one">
+                  <div class="two" id='ff_image'>
+                    <img src='images/mlsys_book_cover.png' width="170"></div>
+                  <img src='images/mlsys_book_cover.png' width="170">
+                </div>
+                <script type="text/javascript">
+                  function ff_start() {
+                    document.getElementById('ff_image').style.opacity = "1";
+                  }
+  
+                  function ff_stop() {
+                    document.getElementById('ff_image').style.opacity = "0";
+                  }
+                  ff_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>Machine Learning Systems with TinyML</papertitle>
+                <br>
+                <a href="https://scholar.google.com/citations?user=jpyq4QoAAAAJ&hl=en">Vijay Janapa Reddi</a>,
+                <a href="https://github.com/mpstewart1">Matthew Stewart</a>, 
+                <a href="https://github.com/uchendui">Ikechukwu Uchendu</a>, 
+                <a href="https://github.com/ishapira1">Itai Shapira</a>, 
+                <a href="https://github.com/Mjrovai">Marcelo Rovai</a>, 
+                <a href="https://github.com/jaysonzlin">Jayson Lin</a>, 
+                <a href="https://github.com/18jeffreyma">Jeffrey Ma</a>, 
+                <a href="https://github.com/korneelf1">Korneel Van den Berghe</a>, 
+                <strong>Zishen Wan</strong>,
+                <a href="https://github.com/srivatsankrishnan">Srivatsan Krishnan</a>, 
+                <a href="https://github.com/ShvetankPrakash">Shvetank Prakash</a>, 
+                <a href="https://github.com/mmaz">Mark Mazumder</a>, 
+                <a href="https://github.com/colbybanbury">Colby Banbury</a>, 
+                <a href="https://github.com/jasonlyik">Jason Yik</a>,
+                <a href="https://github.com/jessicaquaye">Jessica Quaye</a>, ... 
+                 <a href="https://harvard-edge.github.io/cs249r_book/contents/contributors.html">(contributor list)</a>
+                <br>
+              <a href="https://harvard-edge.github.io/cs249r_book/">Book</a> /
+              <a href="https://github.com/harvard-edge/cs249r_book">Github</a> 
+                <br>
+                <p></p>
+                <p>This book is your gateway to the fast-paced world of AI systems through the lens of TinyML. This book aims to demystify the process of developing complete ML systems suitable for deployment - spanning key phases like data collection, model design, optimization, acceleration, security hardening, and integration. 
+                  Crucial systems considerations like reliability, privacy, responsible AI, and solution validation are also explored in depth. This book is led by Prof. Vijay Janapa Reddi and resonates with Harvard TinyML course. Join us in this open-source collective effort - by the community, with the community, for the community.</p> 
+              </td>
+            </tr> 
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
@@ -1643,7 +1695,7 @@
  					<li> 2022 CRNCH PhD Fellowship, Center for Research into Novel Computing Hierarchies, Georgia Tech</li>
           <li> 2021 ACM SIGDA Research Highlights Nominee</li>
  					<li> 2021 Young Fellow, IEEE/ACM Design Automation Conference (DAC)</li>
- 					<li> 2021 Best Research Video Award, Young Fellow Program at IEEE/ACM Design Automation Conference (DAC)</li>
+ 					<li> 2021 Best Presentation Award, Young Fellow Program at IEEE/ACM Design Automation Conference (DAC)</li>
           <li> 2020 Best Paper Award, IEEE/ACM Design Automation Conference (DAC)</li>
  				<li> 2020 Best Paper Award, IEEE Computer Architecture Letters (CAL)</li>
                 <li> 2018 Chiang Chen Overseas Graduate Scholarship (10 of all undergraduates and graduates in China)</li>
