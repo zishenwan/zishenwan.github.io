@@ -63,7 +63,8 @@
                   <ul>
                   <li> 
                   Resilient and Efficient Autonomous Machine Computing:
-                  <em>[ASPLOS'24a]
+                  <em>[CACM'24]
+                  [ASPLOS'24a]
                   [<a href="https://arxiv.org/pdf/2309.09212.pdf">ICRA'24</a>]
                   [<a href="https://ieeexplore.ieee.org/document/10315202">TCAD'23</a>]
                   [<a href="publication/dac23_berry.pdf">DAC'23</a>]
@@ -80,6 +81,7 @@
                   <li> 
                   Co-Design for Edge Intelligence and Efficient AI:
                   <em>[<a href="https://harvard-edge.github.io/cs249r_book/">Book - TinyML</a>]
+                  [DAC'24]
                   [<a href="https://openreview.net/forum?id=xwWsiFmUEs">TMLR'22</a>]
                   [<a href="publication/ICLR2021.pdf">ICLR'21(W)</a>]
                   [<a href="publication/DAC2020.pdf">DAC'20</a>]
@@ -126,6 +128,8 @@
                 <heading>News</heading>  
                 <div style="height:500px;overflow-y:auto">
                 <p></p><ul>
+                <li> [Feb. 2024] <b style="color:#3EA055;">[Paper]</b> Our work "Algorithm-Hardware Co-Design of Distribution-Aware Logarithmic-Posit Encodings" accepted to <strong>DAC 2024</strong>.</li>
+                <li> [Feb. 2024] <b style="color:#3EA055;">[Paper]</b> Our work "The Vulnerability-Adaptive Protection Paradigm Toward Reliable Autonomous Machines" accepted to <strong>Communications of the ACM</strong>.</li>
                 <li> [Jan. 2024] <b style="color:#3EA055;">[Paper]</b> Our work <a href="https://arxiv.org/pdf/2309.09212.pdf"><papertitle>RobotPerf Benchmark</papertitle></a> accepted to <strong>ICRA 2024</strong>.</li>
                 <li> [Dec. 2023] <b style="color:Magenta;">[Book]</b> Our book <a href="https://harvard-edge.github.io/cs249r_book/">
                     <papertitle>Machine Learning Systems with TinyML</papertitle></a> is released. By the Community, For the Community. </li>
@@ -246,8 +250,7 @@
                   <br>
                   <em>Synthesis Lectures on Computer Architecture (Morgan & Claypool Publishers)</em>, pp.1-218, Jun 2021
                   <br>
-            		<a href="https://www.morganclaypool.com/doi/10.2200/S01101ED1V01Y202105CAC056">Book</a> /
-              		<a href="data/RCF2021.bib">Bibtex</a>
+            		<a href="https://www.morganclaypool.com/doi/10.2200/S01101ED1V01Y202105CAC056">Book</a>
                   <br>
                   <p></p>
                   <p>This book provides a thorough overview of the state-of-the-art FPGA-based robotic computing accelerator designs and summarizes their adopted optimized techniques. 
@@ -344,7 +347,9 @@
                 <br>
                 <em>ACM Student Research Competition (SRC), Grand Final, 2023</em>
                 <br><font color="red"><strong>First Place, ACM/SIGBED Student Research Competition (SRC)</strong></font><br>
-              <a href="publication/ACM_SRC.pdf">Paper</a>
+              <a href="publication/ACM_SRC.pdf">Paper</a> / 
+              <a href="https://ece.gatech.edu/news/2023/12/wan-wins-computing-machinery-student-research-competition">Media</a> / 
+              <a href="https://ece.gatech.edu/news/2023/12/wan-selected-machine-learning-and-systems-rising-star">Media</a> 
                 <br>
                 <p></p>
                 <p>This report summarizes our recent efforts in facilitating the development of scalable, efficient, adaptive, and reliable autonomous machine computing, including automatic domain-specific SoC exploration, software-hardware co-design, and performance-efficiency-resilience co-optimization.</p>
@@ -364,6 +369,78 @@
         </tbody></table> 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/CACM24.png' width="170"></div>
+                <img src='images/CACM24.png' width="170">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>The Vulnerability-Adaptive Protection Paradigm Toward Reliable Autonomous Machines</papertitle>
+              <br>
+              <strong>Zishen Wan</strong>*,
+              <a href="https://scholar.google.com/citations?user=d-1MZhIAAAAJ&hl=en">Yiming Gan*</a>,
+              <a href="https://scholar.google.com/citations?hl=en&user=Pqz2TE4AAAAJ">Bo Yu</a>,
+              <a href="https://scholar.google.com/citations?user=jpyq4QoAAAAJ&hl=en">Shaoshan Liu</a>,
+              <a href="https://scholar.google.com/citations?user=lXUce-0AAAAJ&hl=en">Arijit Raychowdhury</a>,
+              <a href="http://www.yuhaozhu.com">Yuhao Zhu</a>
+              <br>
+              <em>Communications of the ACM (<strong>CACM</strong>)</em>, 2024
+              <br>
+              Paper (to appear)
+              <br>
+              <p></p>
+              <p>We characterize the inherent resilience of different compute kernels in autonomous vehicles and drones systems. We analyze the protection design landscape and propose the lightweight Vulnerable-Adaptive Protection (VAP) paradigm for resilient autonomous machines.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/DAC24_logposit.png' width="170"></div>
+                <img src='images/DAC24_logposit.png' width="170">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Algorithm-Hardware Co-Design of Distribution-Aware Logarithmic-Posit Encodings for Efficient DNN Inference</papertitle>
+              <br>
+              <a href="https://www.linkedin.com/in/akshat-ramachandran-3981951bb/">Akshat Ramachandran</a>,
+              <strong>Zishen Wan</strong>,
+              <a href="https://ghjeong12.github.io">Geonhwa Jeong</a>,
+              <a href="http://www.johngustafson.net">John Gustafson</a>,
+              <a href="https://scholar.google.com/citations?user=P__ztgcAAAAJ&hl=en">Tushar Krishna</a>
+              <br>
+              <em>ACM/IEEE Design Automation Conference (<strong>DAC</strong>)</em>, 2024
+              <br>
+              Paper (to appear)
+              <br>
+              <p></p>
+              <p>We present Logarithmic Posit, an adaptive and hardware-friendly datatype that dynamically adapts to DNN weight/activation distributions for efficient inference. We develop Logarithmic Posit quantization and Logarithmic Posit accelerator architecture via algorithm-hardware co-design.</p>
+            </td>
+          </tr> 
 
           <tr onmouseout="ff_stop()" onmouseover="ff_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -411,7 +488,9 @@
               <br><font color="red"><strong>Best Paper Award, IROS Robotics Benchmarking Workshop 2023</strong></font><br>
               <a href="https://arxiv.org/pdf/2309.09212">Paper</a> /
               <a href="publication/RobotPerf_poster.pdf">Poster</a> /
-            		<a href="https://github.com/robotperf/benchmarks">Code</a> 
+            	<a href="https://github.com/robotperf/benchmarks">Code</a> /
+              <a href="https://robotperf.net">Project Page</a> /
+              <a href="https://www.therobotreport.com/robotperf-benchmarks-compare-robotics-computing-performance/">Media</a>
               <br>
               <p></p>
               <p>We introduce RobotPerf, a benchmarking suite to evaluate robotics computing performance across a diverse range of hardware platforms. As an open-source initiative, RobotPerf remains committed to evolving with community input to advance the future of hardware-accelerated robotics.</p>
@@ -449,7 +528,8 @@
               <br>
               <em>ACM Inter Conf on Architectural Support for Programming Languages and Operating Systems (<strong>ASPLOS</strong>)</em>, 2024
               <br><font color="red"><strong>Best Poster Award, IBM IEEE AI Compute Symposium 2023</strong></font><br>
-              Paper (to appear)
+              Paper (to appear) /
+              <a href="https://ece.gatech.edu/news/2024/01/wan-recognized-energy-saving-research-autonomous-systems">Media</a>
               <br>
               <p></p>
               <p>We propose MulBERRY, a multi-agent robust learning framework to enhance bit error robustness and energy efficiency for autonomous swarm systems. </p>
@@ -610,7 +690,7 @@
               <em>IEEE/ACM International Conference on Computer-Aided Design (<strong>ICCAD</strong>)</em>, 2023
               <br>
               <a href="https://arxiv.org/pdf/2310.04940.pdf">Paper</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:cDe_gXM79bEJ:scholar.google.com/&output=citation&scisdr=ClEwVJDBEKTcoI07G58:AFWwaeYAAAAAZSg9A59zsXluOpSgxSso73UfAhc&scisig=AFWwaeYAAAAAZSg9A3fbN7h12ma1p_jqKzQbtTg&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://semiengineering.com/scalable-and-compact-multi-bit-cam-designs-using-fefets/">Media</a>
               <br>
               <p></p>
               <p>We propose a scalable and compact multi-bit CAM designs with FeFET, and demonstrate speedup and energy efficiency improvement in hyperdimensional computing (HDC) applications.</p>
@@ -653,8 +733,7 @@
               <br>
               <em>IEEE Journal of Solid-State Circuits (<strong>JSSC</strong>)</em>, 2023
               <br>
-              <a href="https://ieeexplore.ieee.org/abstract/document/10210581/">Paper</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:wHhqhNayozMJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEI7tynwLaxI:AFWwaeYAAAAAZNgNcxLgQhQVZjoMDn9cJ4aVegQ&scisig=AFWwaeYAAAAAZNgNc45id32FTC4rKOZG5cMJdPQ&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/10210581/">Paper</a>
               <br>
               <p></p>
               <p>We present a heterogeneous programmable ARM Cortex-based SoC with power-efficient RRAM compute-in-memory for CNN and high-speed SRAM compute-near-memory for SNN for the modality-matched acceleration of the hybrid vision.</p>
@@ -693,8 +772,7 @@
                   <br>
                   <a href="publication/dac23_berry.pdf">Paper</a> / 
                   <a href="publication/DAC23_slide.pdf">Slide</a> / 
-                  <a href="publication/DAC23_poster.pdf">Poster</a> / 
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:GFbf8h-p2CMJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0L1l0:AFWwaeYAAAAAZNgNzl3n4oCi3Ck3318kuv4LNyg&scisig=AFWwaeYAAAAAZNgNzhkVFeWcT-Ea9e0NZ5XghSg&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                  <a href="publication/DAC23_poster.pdf">Poster</a>
                   <br>
                   <p></p>
                   <p>We propose BEERY, a robust learning framework to improve bit error robustness and energy efficiency for RL autonomous systems. BEERY enables robust low-voltage operation on UAVs, leading to high energy savings in both compute-level operation and system-level quality-of-flight.</p>
@@ -738,8 +816,7 @@
             		<a href="https://arxiv.org/pdf/2105.12882.pdf">Paper</a> /
             		<a href="publication/MAVFI_slide.pdf">Slide</a> /
                 <a href="publication/mavfi_poster.pdf">Poster</a> /
-            		<a href="https://github.com/harvard-edge/MAVBench/tree/mavfi">Code</a> /
-              		<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:6-P3r8edKEsJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0L91k:AFWwaeYAAAAAZNgN71kAkaZwooH9fIU_7vB3cIo&scisig=AFWwaeYAAAAAZNgN73Wc1RsIjKvP71JINv12h9k&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+            		<a href="https://github.com/harvard-edge/MAVBench/tree/mavfi">Code</a>
                   <br>
                   <p></p>
                   <p>We build a ROS-based end-to-end fault analysis framework to understand the resilience of Micro Aerial Vehicles (MAVs) system, and propose two low overhead anomaly-based transient fault detection and recovery schemes. </p>
@@ -774,8 +851,7 @@
                   <br>
                   <em>Design, Automation and Test in Europe Conference (<strong>DATE</strong>)</em>, 2023
                   <br>
-                  <a href="https://arxiv.org/pdf/2306.16660.pdf">Paper</a> /
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:rGFbzZ-zA_UJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IHyE:AFWwaeYAAAAAZNgOByGItjQk7otpud5DuxyIgRY&scisig=AFWwaeYAAAAAZNgOBzy9YTWd6JHIVBO44nLfb0Y&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                  <a href="https://arxiv.org/pdf/2306.16660.pdf">Paper</a>
                   <br>
                   <p></p>
                   <p>We propose a lightweight, fully unsupervised and real-time adaptation algorithm for safety-critical lane detection of autonomous driving, and demonstrate its state-of-the-art performance on Nvidia Jetson Orin.</p>
@@ -818,8 +894,7 @@
                   <br>
                   <em>IEEE International Solid-State Circuits Conference (<strong>ISSCC</strong>)</em>, 2023
                   <br>
-                  <a href="https://ieeexplore.ieee.org/abstract/document/10067544">Paper</a> /
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:lCHPy0qI35AJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IKbY:AFWwaeYAAAAAZNgOMbaJIBQZgMrgfYTLNXvCqyw&scisig=AFWwaeYAAAAAZNgOMZanoL3i6Y0L-zABtwhMLKc&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10067544">Paper</a>
                   <br>
                   <p></p>
                   <p>We propose a fully-programmable heterogeneous ARM Cortex-based SoC with an in-memory low-power RRAM-based CNN and a near-memory high-speed SRAM-based SNN in a hybrid architecture, for high-speed target identification and tracking applications.</p>
@@ -856,7 +931,7 @@
                     <em>IEEE/ACM International Conference on Computer-Aided Design (<strong>ICCAD</strong>)</em>, 2022
                    <br>
                   <a href="publication/Wan2022ICCAD.pdf">Paper</a> /
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:eC4HdY7Jzj8J:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IXqA:AFWwaeYAAAAAZNgORqDUXLu9WNtqhOQDQeMiruA&scisig=AFWwaeYAAAAAZNgORvgsX_9ClQ9GnUfcGIP6jVg&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                  <a href="https://engineering.purdue.edu/C-BRIC/News/cbric-researcher-at-purdue-presents-at-iccad">Media</a> 
                   <br>
                   <p></p>
                   <p>We explore the various originations of fault sources across the computing stack of autonomous systems, and discuss the diverse fault impacts and fault mitigation techniques of different scales of autonomous systems.</p>
@@ -898,8 +973,7 @@
                     <br><font color="red"><strong>IEEE Micro Top Picks 2023 Honorable Mention</strong></font>
                    <br>
                    <a href="https://ieeexplore.ieee.org/document/9923818">Paper</a> / 
-              <a href="https://arxiv.org/pdf/2102.02988.pdf">arXiv</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:heBGpDfxih8J:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IRDo:AFWwaeYAAAAAZNgOXDq6f_RKqFl54qwVbBXevk0&scisig=AFWwaeYAAAAAZNgOXDt40fXAMQF-kN_XnqNZICQ&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://arxiv.org/pdf/2102.02988.pdf">arXiv</a>
                   <br>
                   <p></p>
                   <p>We propose a machine learning-based design space exploration framework, Autopilot, that can automate the full system cyber-physical co-design for aerial robots. AutoPilot consistently outperforms general-purpose processors and specialized accelerators built for drones.</p>
@@ -940,7 +1014,7 @@
                    <br>
                    <a href="https://dl.acm.org/doi/abs/10.1145/3489517.3530526">Paper</a> /
                    <a href="https://www.youtube.com/watch?v=dtbWH2ALX3M">Video</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:mp6Io80lSrMJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IbVQ:AFWwaeYAAAAAZNgOdVQbHOtOD94Ed-xliN8V3og&scisig=AFWwaeYAAAAAZNgOdSmirAxOC-d_SMEhtQlIgtI&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                   <a href="https://engineering.purdue.edu/C-BRIC/News/cbric-researchers-present-at-dac-conference">Media</a>
                   <p></p>
                   <p>We propose a new ECC scheme for hard and soft errors in foundry RRAM-based Compute-In-Memory chip. We demonstrate single, double, and triple error correction offering up to 16,000× reduction in bit error rate, while consuming only 29.1% area and 26.3% power overhead.</p>
                 </td>
@@ -980,8 +1054,7 @@
                    <br>
                     <a href="https://arxiv.org/pdf/2205.07149.pdf">Paper</a> /
                     <a href="publication/AICAS2022_slide.pdf">Slide</a> /
-                    <a href="https://www.youtube.com/watch?v=BhcHP_PvC-M">Video</a> /
-                    <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:CM7queJKDLEJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IkLA:AFWwaeYAAAAAZNgOiLAeE6euMvG9A06ErGc19ds&scisig=AFWwaeYAAAAAZNgOiGAvKdUZylblG-F76oWbS7E&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                    <a href="https://www.youtube.com/watch?v=BhcHP_PvC-M">Video</a>
                   <p></p>
                   <p>We present the cross-layer robotic computing stack, illustrate the current progress and key design techniques. We summarize and highlight the challenges, research opportunities, and roadmap for the next-generation FPGA-based robotic computing systems.</p>
                 </td>
@@ -1018,8 +1091,7 @@
                     <em>IEEE Custom Integrated Circuits Conference (<strong>CICC</strong>)</em>, 2022
                   <br>
                   <a href="https://arxiv.org/pdf/2202.08952.pdf">Paper</a> /
-                  <a href="publication/CICC22_slide.pdf">Slide</a> /
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:6dnQg21KFHcJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0Ihv4:AFWwaeYAAAAAZNgOnv7A459A-YhPMWITEywT4Mk&scisig=AFWwaeYAAAAAZNgOnjfPui_XlkTjgp8sSARGyrw&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                  <a href="publication/CICC22_slide.pdf">Slide</a>
                   <br>
                   <p></p>
                   <p>We present an energy-efficient and runtime-reconfigurable FPGA-based accelerator for robotic localization tasks. We exploit SLAM-specific data locality, sparsity, reuse, and parallelism, and achieve >5x performance improvement over state-of-the-art.</p>
@@ -1057,8 +1129,7 @@
                   <em>IEEE International Symposium on Performance Analysis of Systems and Software <strong>(ISPASS)</strong></em>, 2022
                   <br>
                 <a href="https://arxiv.org/pdf/2204.10898.pdf">Paper</a> /
-                <a href="https://sites.google.com/view/skyline-tool/home">Skyline Tool</a> /
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:Ng-ZY46uuSEJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IrN0:AFWwaeYAAAAAZNgOtN3aiKZXg4eA_AdNSJY9LQ8&scisig=AFWwaeYAAAAAZNgOtBh40QG19D7lA-hWjANDAPs&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                <a href="https://sites.google.com/view/skyline-tool/home">Skyline Tool</a>
                   <br>
                   <p></p>
                   <p>We present a bottleneck analysis tool, Skyline, for designing compute systems for autonomous Unmanned Aerial Vehicles (UAV). The tool provides insights by exploiting the fundamental relationships between various components in the autonomous UAV such as sensor, compute, body dynamics. </p>
@@ -1097,8 +1168,7 @@
                     <em>Design, Automation and Test in Europe Conference (<strong>DATE</strong>)</em>, 2022
                    <br>
                   <a href="https://arxiv.org/pdf/2203.07276.pdf">Paper</a> /
-                  <a href="publication/DATE22_slide.pdf">Slide</a> /
-                  <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:8MvjTATQpWgJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0IyW0:AFWwaeYAAAAAZNgO0W3LBmiaJ3OPonB6vK8lmKg&scisig=AFWwaeYAAAAAZNgO0a0l2LbXIymPqHCdhTx0Ckg&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                  <a href="publication/DATE22_slide.pdf">Slide</a>
                   <br>
                   <p></p>
                   <p>We characterize the hardware transient fault impact on federated reinforcement learning system, a swarm intelligence paradigm in autonomous machines. We further propose application-aware cost-effective fault detection and mitigation scheme to enable autonomy reliability.</p>
@@ -1133,8 +1203,7 @@
                     <em>Asia and South Pacific Design Automation Conference (<strong>ASP-DAC</strong>)</em>, 2022 (Invited Paper)
                   <br>
                     <a href="publication/ASPDAC2022.pdf">Paper</a> /
-                    <a href="publication/ASPDAC22_slide.pdf">Slide</a> /
-                    <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:JU3daWDpoNsJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0JBhQ:AFWwaeYAAAAAZNgPHhQpCC7g5qRG1Tfnzx5dXPU&scisig=AFWwaeYAAAAAZNgPHlgNMU3YK0qdkIox20TCXpE&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+                    <a href="publication/ASPDAC22_slide.pdf">Slide</a>
                   <br>
                   <p></p>
                   <p>We present a series of ultra-low-power accelerator and system designs on enabling the intelligence in edge robotic platforms, with an emphasis on mixed-signal circuit, neuro-inspired computing, benchmarking, software infrastructure, and algorithm-hardware co-design.</p>
@@ -1174,8 +1243,7 @@
               <em>Transactions on Machine Learning Research (<strong>TMLR</strong>)</em>, 2022
               <br>
               <a href="https://openreview.net/forum?id=xwWsiFmUEs">Paper</a> /
-              <a href="https://ai.googleblog.com/2022/09/quantization-for-fast-and.html">Google AI Blog</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:8cX5EGe21RcJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0JUJM:AFWwaeYAAAAAZNgPSJOzueDXrF9w4w-WHh4RV3w&scisig=AFWwaeYAAAAAZNgPSOVK6gMskg2JGU9HjrhoV4k&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://ai.googleblog.com/2022/09/quantization-for-fast-and.html">Google AI Blog</a>
               <p></p>
               <p>
                   We propose a quantized distributed reinforcement learning (RL) training system, and enable more environmentally friendly RL by achieving carbon emission improvements between 1.9 × and 3.76× compared to training RL-agents in full-precision.
@@ -1217,7 +1285,7 @@
               <a href="https://arxiv.org/pdf/2111.04957.pdf">Paper</a> /
               <a href="publication/DAC21_slide.pdf">Slide</a> / 
               <a href="https://www.youtube.com/watch?v=GuGx_ydfrJw">Video</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:AhIGH2kjdBUJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0JexU:AFWwaeYAAAAAZNgPYxU9LEV0ijFw1925yvbq_Y0&scisig=AFWwaeYAAAAAZNgPY-c8dFEC8EWKdNKZbys6J-I&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://ece.gatech.edu/news/2023/12/wan-selected-ieeeacm-dac-honors">Media</a>
                   <br>
                   <p></p>
                   <p>We evaluate the resilience of learning-based navigation systems to transient and permanent hardware faults. We further propose two efficient fault mitigation techniques for both RL training and inference.</p>
@@ -1254,8 +1322,7 @@
                   <em>Pre-print</em>, 2021
                   <br>
             		<a href="https://arxiv.org/pdf/2109.05683.pdf">Paper</a> /
-            		<a href="publication/CS249r_poster.pdf">Poster</a> /
-              		<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:LK25eZ97jzsJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0Jbd8:AFWwaeYAAAAAZNgPdd8lNJfDS-WVO6CZ0TLWlLc&scisig=AFWwaeYAAAAAZNgPdVzdfoFI-nQNQOLda1jFhfc&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+            		<a href="publication/CS249r_poster.pdf">Poster</a>
                   <br>
                   <p></p>
                   <p>We present AutoSoC, a algorithms-hardware co-design framework for end-to-end learning-based aerial autonomous machines. AutoSoC runs the ASIC flow of place and route and generates layouts of the floor-planed accelerators with varying performance, area, and power consumption. </p>
@@ -1294,8 +1361,7 @@
                   <br>
             <em>IEEE Circuits and Systems Magazine (<strong>CAS-M</strong>)</em>, 2021
               <br>
-              <a href="publication/CAS2021.pdf">Paper</a> /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:WIs7o0hWKh8J:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0JlIA:AFWwaeYAAAAAZNgPjIBwRBAVI5hhdyPhLlEUbTk&scisig=AFWwaeYAAAAAZNgPjPmOd3aN9DngPdoqkV-mLBQ&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="publication/CAS2021.pdf">Paper</a>
                   <br>
                   <p></p>
                   <p>We provide an overview of recent work on FPGA-based robotic accelerators. An analysis of software and hardware optimization techniques and main technical issues is presented, along with some commercial and space applications. </p>
@@ -1335,8 +1401,7 @@
               <a href="https://arxiv.org/pdf/2104.00192.pdf">Paper</a> / 
               <a href="publication/AICAS21_slide.pdf">Slide</a> / 
               <a href="https://www.youtube.com/watch?v=MAbch8PKFVw">Summary Video</a> /
-              <a href="https://www.youtube.com/watch?v=TTSU-E2OcYs&t">Long Video</a> /  
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:3C8nAwbWtHkJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0JtZw:AFWwaeYAAAAAZNgPrZxaKdf8S6c7hOfGZnTpxgM&scisig=AFWwaeYAAAAAZNgPrQQkkFNXeysr2bWp5H_0TM4&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://www.youtube.com/watch?v=TTSU-E2OcYs&t">Long Video</a>
                   <br>
                   <p></p>
                   <p>We present a real-time and energy-efficient ORB (Oriented-Fast and Rotated-BRIEF) based visual system on FPGAs. Compared to Nvidia TX1 and Intel i7 CPU, our FPGA-based implementation achieves 5.6x and 3.4x speedup, as well as 3.0x and 34.6x power reduction, respectively. </p>
@@ -1374,8 +1439,7 @@
                   <br>
             <em>IEEE International Conference on Artificial Intelligence Circuits and Systems <strong> (AICAS)</strong></em>, 2021
             <br>
-              <a href="https://arxiv.org/pdf/2104.05112.pdf">Paper</a> / 
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:VTZSk1ox-pwJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0J0As:AFWwaeYAAAAAZNgPyAtUAMenf2EgCD9HjbybzT0&scisig=AFWwaeYAAAAAZNgPyK4DUpGYQ-_ZuECvH9am8iw&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://arxiv.org/pdf/2104.05112.pdf">Paper</a> 
               <br>
 
                   <p></p>
@@ -1416,11 +1480,9 @@
               <br>
         <em>ACM/IEEE Design Automation Conference (<strong>DAC</strong>)</em>, 2020  <br> <font color="red"><strong>Best Paper Award</strong></font> <br> <font color="red"><strong>ACM SIGDA Research Highlights Nominee</strong></font>
               <br>
-              <a href="publication/DAC2020.pdf">Paper</a>
-        /
-              <a href="https://arxiv.org/pdf/1909.13271.pdf">arXiv (long version)</a>
-        /
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:EU2t8kBVH_MJ:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0JwU8:AFWwaeYAAAAAZNgP2U8SqtaOhJIMmdXvNj-ukx8&scisig=AFWwaeYAAAAAZNgP2f8hn1nuqewvDyt8vx2fxEE&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="publication/DAC2020.pdf">Paper</a> /
+              <a href="https://arxiv.org/pdf/1909.13271.pdf">arXiv (long version)</a> /
+              <a href="https://www.techspot.com/article/2630-number-representation-in-hardware/">Media</a>
               <p></p>
               <p>We present an algorithm-hardware co-design centered around a novel floating-point inspired number format, which can achieve higher inference accuracies 
                   and lower per-operation energy compared to NVDLA-like PE.</p>
@@ -1463,8 +1525,7 @@
               Presented at <em>International Symposium on High-Performance Computer Architecture (<strong>HPCA</strong>)</em>, 2021
               <br>
               <a href="publication/CAL2020.pdf">Paper</a> / 
-              <a href="https://sites.google.com/view/skyline-tool/home">Tool Website</a> / 
-              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:6-1TnZD-li0J:scholar.google.com/&output=citation&scisdr=ClE_vtGrEKTcoX0J9mY:AFWwaeYAAAAAZNgP7mZQkRig77hjO9FJzV2BeeY&scisig=AFWwaeYAAAAAZNgP7raoSTbVM2fwTdClYnn49jY&scisf=4&ct=citation&cd=-1&hl=en">Bibtex</a>
+              <a href="https://sites.google.com/view/skyline-tool/home">Tool Website</a>
               <br>
               <p></p>
               <p> We introduce a roofline-like model to understand the role of computing in aerial autonomous machines. The model provides insights by exploiting the fundamental relationships between various components in an aerial robot, such as sensor framerate, compute performance, and body dynamics.</p>
@@ -1555,7 +1616,8 @@
               <em>5th Workshop on Domain Specific System Architecture (DOSSA-5), International Symposium on Computer Architecture (<strong>ISCA</strong>) </em>, 2023
               <br>
               <a href="http://prism.sejong.ac.kr/dossa-5/dossa_paper/paper5_VPP_Camera_Ready_Update.pdf">Paper</a> /  
-              <a href="http://prism.sejong.ac.kr/dossa-5/dossa_paper/paper5_VPP_Slide_Update.pdf">Slide</a> 
+              <a href="http://prism.sejong.ac.kr/dossa-5/dossa_paper/paper5_VPP_Slide_Update.pdf">Slide</a> /
+              <a href="https://ece.gatech.edu/news/2023/07/celebrating-iscas-50th-georgia-techs-contributions-impact-and-reflections-50-years">Media</a> 
               <p></p>
               <p>
               We characterize the inherent robustenss and performance of various autonomous machine computing kernels, and propose a Vulnerable-Proportional Protection (VPP) design paradigm to provide high protection coverage while introducing little cost.</p>
@@ -1628,8 +1690,7 @@
               <a href="http://nvmw.ucsd.edu/nvmw2022-program/nvmw2022-data/nvmw2022-paper45-final_version_your_extended_abstract.pdf">Paper</a> /
               <a href="http://nvmw.ucsd.edu/nvmw2022-program/nvmw2022-data/nvmw2022-paper45-presentation_slides.pdf">Slide</a> / 
               <a href="https://youtu.be/ywNCwgu0CYU">Summary Video</a> / 
-              <a href="https://youtu.be/PTxvEAwpeGM">Long Video</a> /
-              <a href="data/NVMW22.bib">Bibtex</a>
+              <a href="https://youtu.be/PTxvEAwpeGM">Long Video</a>
               <p></p>
               <p>
                   We explore the impact of device variation (calibrated with measured data on foundry RRAM arrays) and propose a new class of ECC for hard and soft errors in RRAM-based in-memory coomputing. We demonstrate the single, double, and triple error correction.</p>
@@ -1669,8 +1730,7 @@
               <br>
               <a href="publication/ICLR2021.pdf">Paper</a> /
               <a href="publication/ICLR21_poster.pdf">Poster</a> /
-              <a href="https://github.com/harvard-edge/quarl">Code</a> /
-              <a href="data/ICLR2021.bib">Bibtex</a>
+              <a href="https://github.com/harvard-edge/quarl">Code</a>
               <p></p>
               <p>
                   We introduce a novel Reinforcement Learning training paradigm, ActorQ, to speed up actor-learner distributed RL training. ActorQ demonstrates >1.5x-2.5× speedup, and faster convergence over full precision training on a range of tasks (Deepmind Control Suite) and RL algorithms (D4PG, DQN).</p>
@@ -1708,8 +1768,7 @@
               <em>Resource-Constrained Machine Learning (ReCoML) Workshop, Conference on Machine Learning and System (<strong>MLSys</strong>)</em>, 2020 
               <br>
               <a href="publication/SysML2020.pdf">Paper</a> /
-              <a href="https://github.com/harvard-edge/quarl">Code</a> /
-              <a href="data/SysML2020.bib">Bibtex</a> 
+              <a href="https://github.com/harvard-edge/quarl">Code</a>
               <br>
               <p></p>
               <p>
@@ -1768,20 +1827,22 @@
           - 05/2023 Georgia Tech 3D Systems Packaging Research Center Spring Meeting, Atlanta, GA<br>
           - 05/2023 CoCoSys (Center for the Co-Design of Cognitive Systems) Annual Summit, DARPA SRC JUMP 2.0, Atlanta, GA<br>
  		  <li> <strong>"Intelligence in Robotic Computing: Exploring Agile Design Flows for Efficient and Resilient Autonomous Systems"</strong></li>
+      - 02/2024 CRIDC (Career, Research, and Innovation Development Conference), Atlanta, GA<br>
       - 11/2023 6th IBM AI Compute Symposium, IBM T.J. Watson Research Center, Yorktown Heights, NY<br>
       - 09/2023 Georgia Tech Computer Architecture Research Seminar (Arch-Whisky <img src='images/arch-whisky.png' width="23" align="absbottom">), Atlanta, GA<br>
       - 08/2023 ML and Systems Rising Stars Workshop, Google, Mountain View, CA <br>
       - 05/2023 Georgia Tech Chips Day, Atlanta, GA<br>
       - 03/2023 Georgia Tech EIC Lab (Host: Prof. Celine Lin), Atlanta, GA<br>
       - 02/2023 CRNCH (Center for Research into Novel Computing Hierarchies) Annual Summit, Atlanta, GA<br>
- 		  - 02/2023 CRIDC (Career, Research, and Innovation Development Conference), Atlanta, GA<br>
           - 11/2022 ACM Student Research Competition at ICCAD, San Diego, CA<br>
           <li> <strong>"Efficient Algorithm-Hardware Co-Design for Autonomous Machine Computing"</strong></li>
+          - 02/2023 CRIDC (Career, Research, and Innovation Development Conference), Atlanta, GA<br>
           - 10/2022 5th IBM AI Compute Symposium, IBM T.J. Watson Research Center, Yorktown Heights, NY<br>
           - 10/2022 CBRIC (Research Center for Brain-Inspired Computing) Annual Summit, DARPA JUMP SRC, Purdue University, IN<br>
           - 03/2022 Guest Lecture, Georgia Tech ECE8893 Parallel Programming for FPGAs (Host: Prof. Callie Hao), Atlanta, GA<br>
           - 02/2022 CRNCH (Center for Research into Novel Computing Hierarchies) Annual Summit, Online
           <li> <strong>"Enabling Reliable and Safe Autonomous Systems"</strong></li>
+          - 02/2024 CRNCH (Center for Research into Novel Computing Hierarchies) Annual Summit, Atlanta, GA<br>
           - 05/2023 CoCoSys (Center for the Co-Design of Cognitive Systems) Annual Summit, DARPA SRC JUMP 2.0, Atlanta, GA<br>
           - 11/2022 ACM Student Research Competition at ESWEEK, Online<br>
           - 06/2022 COMPSAC plenary panel 'Reliability of Autonomous Machines', Online<br>
@@ -1804,7 +1865,7 @@
  				<p></p><ul>
  				<li> Conference Reviewer: CAV@ASPLOS'24, DAC'24, DAC'23, ESWEEK'23, IJCAI'23, NPC'22.</li>
  				<li> Journal Reviewer: IEEE JSSC, IEEE TCAD, IEEE TCAS-I, IEEE TBioCAS, IEEE Micro, IEEE TIM, ACM JATS.</li>
- 				<li> Artifact Evaluation Committee: MICRO'23, ISCA'23, ASPLOS'23, MICRO'22, ASPLOS'22, IISWC'22.</li>
+ 				<li> Artifact Evaluation Committee: ISCA'24, MICRO'23, ISCA'23, ASPLOS'23, MICRO'22, ASPLOS'22, IISWC'22.</li>
  				<li> Working Group: Co-found MLCommons (MLPerf) Resilience and Robustness Research Working Group.</li>
  				<li> Panelist: COMPSAC'22.</li>
         <li> Outreach activity: ISSCC'24 News and Media Team, Steering Committee of IEEE Entrepreneurship China, IISWC'19 Volunteer.</li>
@@ -1832,7 +1893,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last Update: Jan. 2024
+                Last Update: Feb. 2024
                 <br><br>
                 <a href="https://github.com/jonbarron/website">Website Template</a>
                 </p>
