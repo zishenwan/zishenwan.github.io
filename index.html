@@ -400,7 +400,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>PrePrints</heading>
+                <heading>Research Artifacts</heading>
               </td>
             </tr>
           </tbody></table>
@@ -869,7 +869,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-                  <papertitle>Artificial Intelligence Hardware: Quo Vadis?</papertitle>
+                  <papertitle>Breaking the Memory Wall: Next-Generation AI Hardware</papertitle>
               <br>
               <a href="https://scholar.google.com/citations?user=to4P8KgAAAAJ&hl=en">Kaushik Roy</a>,
               <a href="https://scholar.google.com/citations?hl=en&user=T7vQcHoAAAAJ">Adarsh Kosta</a>,
@@ -927,6 +927,46 @@
               <br>
               <p></p>
               <p>This work presents our vertically integrated approach to enabling efficient and scalable neuro-symbolic computing—spanning workload benchmarking, hardware architecture, FPGA prototyping, and SoC tapeout. Through this cross-layer design, we demonstrate the feasibility of neuro-symbolic cognitive systems at scale. </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/SLM-Mux.png' width="170"></div>
+                <img src='images/SLM-Mux.png' width="170">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>SLM-Mux: Orchestrating Small Language Models for Reasoning</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=QI96hfoAAAAJ&hl=en">Chenyu Wang*</a>,
+              <strong>Zishen Wan</strong>*,
+              <a href="https://scholar.google.com/citations?user=xTG6Nn0AAAAJ">Hao Kang</a>,
+              <a href="https://scholar.google.com/citations?hl=en&user=89ANml4AAAAJ&view_op=list_works">Emma Chen</a>,
+              <a href="https://zhiqiangxie.com/">Zhiqiang Xie</a>,
+              <a href="https://scholar.google.com/citations?user=P__ztgcAAAAJ&hl=en">Tushar Krishna</a>,
+              <a href="https://vijay.seas.harvard.edu/">Vijay Janapa Reddi</a>,
+              <a href="https://yilundu.github.io/">Yilun Du</a>
+              
+              <br>
+              <em>arXiv Preprint</em>, 2025<br>
+              <a href="https://arxiv.org/pdf/2510.05077">Paper</a> / 
+              <a href="https://slm-mux.github.io/">Project Website</a> / 
+              <a href="https://github.com/slm-mux/SLM-MUX">Code</a>
+              <br>
+              <p></p>
+              <p>We propose SLM-Mux, a new multi-model framework to coordinate multiple smaller language models (SLMs) based on confidence and complementary strengths. SLM-MUX yields significant gains on reasoning benchmarks by optimizing model subsets and inference scaling.</p>
             </td>
           </tr> 
 
