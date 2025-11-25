@@ -129,3 +129,50 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Reduce vertical spacing between publications */
+.publications-table tr td {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.publications-table tr:first-child td {
+  padding-top: 20px !important;
+}
+
+/* Remove spacing from empty paragraphs in publications */
+.publications-table tr td p:empty {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+/* Reduce vertical spacing between research artifacts */
+.artifacts-table tr td {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* Remove spacing from empty paragraphs in artifacts */
+.artifacts-table tr td p:empty {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+/* Reduce vertical spacing between publications */
+.books-table tr td {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.books-table tr:first-child td {
+  padding-top: 20px !important;
+}
+
+/* Remove spacing from empty paragraphs in publications */
+.books-table tr td p:empty {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
