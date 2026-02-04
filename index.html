@@ -42,8 +42,7 @@
                       href="https://scholar.google.com/citations?user=gy4UVGcAAAAJ&hl=en">Prof. Vijay Janapa Reddi</a>.
                     I received my Ph.D. from Georgia Tech (2025), advised by <a
                       href="https://www.ece.gatech.edu/faculty-staff-directory/arijit-raychowdhury">Prof. Arijit
-                      Raychowdhury</a> and <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a>. My
-                    research interests lie at the intersection of computer architecture, systems, and VLSI, with a focus
+                      Raychowdhury</a> and <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a>. I am a computer architect and SoC designer, working at the intersection of computer architecture, VLSI, and systems, with a focus
                     on (1) cross-layer system-architecture-silicon co-design for embodied and physical AI, and (2)
                     agentic AI for computing system design.
                   </p>
@@ -111,7 +110,7 @@
                           <ul>
                             <li>
                               Architecture for Neuro-Symbolic and Embodied Intelligence
-                              [HPCA'26]
+                              [<a href="https://arxiv.org/pdf/2601.20784">HPCA'26</a>]
                               [<a href="https://dl.acm.org/doi/pdf/10.1145/3760250.3762235">ASPLOS'26b</a>]
                               [<a href="https://arxiv.org/pdf/2503.01162">HPCA'25</a>]
                               [<a href="https://dl.acm.org/doi/pdf/10.1145/3676641.3716016">ASPLOS'25a</a>]
@@ -149,7 +148,7 @@
                               [<a href="https://ieeexplore.ieee.org/abstract/document/10210581">JSSC'23</a>]
                               [<a href="https://ieeexplore.ieee.org/abstract/document/10067544">ISSCC'23</a>]
                               and Memory-Centric Computing
-                              [DATE'26b]
+                              [<a href="https://arxiv.org/pdf/2601.20267">DATE'26b</a>]
                               [<a href="https://arxiv.org/pdf/2504.14020">ICCAD'25</a>]
                               [<a href="https://arxiv.org/pdf/2502.05948">ISCAS'25</a>]
                               [<a
@@ -202,8 +201,8 @@
                               href="https://harvard-edge.github.io/asplos-26-arch-2-workshop/">
                               <papertitle>Architecture 2.0: AI for Computing Systems Design</papertitle>
                             </a> at ASPLOS 2026.</li>
-                          <li> [Nov. 2025] <b style="color:#3EA055;">[Paper]</b> Our work "REASON: Accelerating
-                            Probabilistic Logical Reasoning for Neuro-Symbolic Intelligence" accepted to <strong>HPCA
+                          <li> [Nov. 2025] <b style="color:#3EA055;">[Paper]</b> Our work <a href="https://arxiv.org/pdf/2601.20784"><papertitle>REASON: Accelerating
+                            Probabilistic Logical Reasoning for Neuro-Symbolic Intelligence</papertitle></a> accepted to <strong>HPCA
                               2026</strong>.</li>
                           <li> [Nov. 2025] <b style="color:#3EA055;">[Paper]</b> Our work "CREATE: Cross-Layer
                             Resilience Optimization for Efficient Embodied AI Systems" accepted to <strong>ASPLOS
@@ -946,6 +945,50 @@
                 style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
 
+                    <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                      <div class="one">
+                        <div class="two" id='ff_image'>
+                          <img src='images/HPCA26_REASON.png' width="170">
+                        </div>
+                        <img src='images/HPCA26_REASON.png' width="170">
+                      </div>
+                      <script type="text/javascript">
+                        function ff_start() {
+                          document.getElementById('ff_image').style.opacity = "1";
+                        }
+                        function ff_stop() {
+                          document.getElementById('ff_image').style.opacity = "0";
+                        }
+                        ff_stop()
+                      </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <papertitle>REASON: Accelerating Probabilistic Logical Reasoning for Scalable Neuro-Symbolic
+                        Intelligence</papertitle>
+                      <br>
+                      <strong>Zishen Wan</strong>,
+                      <a href="https://scholar.google.com/citations?user=_zZGO-4AAAAJ&hl=en">Che-Kai Liu</a>,
+                      <a href="https://jiayi-19.github.io/">Jiayi Qian</a>,
+                      <a href="https://scholar.google.com/citations?user=zoMQ8CoAAAAJ&hl=en">Hanchen Yang</a>,
+                      <a href="https://scholar.google.com/citations?user=Uug6p-AAAAAJ&hl=en">Arijit Raychowdhury</a>,
+                      <a href="https://scholar.google.com/citations?user=P__ztgcAAAAJ&hl=en">Tushar Krishna</a>
+                      <br>
+                      <em>International Symposium on High-Performance Computer Architecture
+                        (<strong>HPCA</strong>)</em>, 2026
+                      <br><a href="https://arxiv.org/pdf/2601.20784">Paper</a> /
+                      <a href="publication/2026-02-03_REASON_HPCA_Talk.pdf">Slide</a> /
+                      <a href="https://www.youtube.com/watch?v=QEvep7tzxMs">Talk</a> /
+                      <a href="https://effi-nesy.github.io/">Tutorial</a>
+                        <br>
+                      <p></p>
+                      <p>REASON is an algorithm-system-architecture framework that accelerates the “slow-thinking”
+                        components of cognitive AI -- logical deduction, constraint solving, and probabilistic reasoning
+                        -- through common representation, reconfigurable architecture, and tight GPU integration for
+                        LLM+symbolic agentic workflows.</p>
+                    </td>
+                  </tr>
+                  
                   <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                     <td style="padding:20px;width:25%;vertical-align:middle">
                       <div class="one">
@@ -992,47 +1035,6 @@
                   </tr>
 
                   <tr onmouseout="ff_stop()" onmouseover="ff_start()">
-                    <td style="padding:20px;width:25%;vertical-align:middle">
-                      <div class="one">
-                        <div class="two" id='ff_image'>
-                          <img src='images/HPCA26_REASON.png' width="170">
-                        </div>
-                        <img src='images/HPCA26_REASON.png' width="170">
-                      </div>
-                      <script type="text/javascript">
-                        function ff_start() {
-                          document.getElementById('ff_image').style.opacity = "1";
-                        }
-                        function ff_stop() {
-                          document.getElementById('ff_image').style.opacity = "0";
-                        }
-                        ff_stop()
-                      </script>
-                    </td>
-                    <td style="padding:20px;width:75%;vertical-align:middle">
-                      <papertitle>REASON: Accelerating Probabilistic Logical Reasoning for Scalable Neuro-Symbolic
-                        Intelligence</papertitle>
-                      <br>
-                      <strong>Zishen Wan</strong>,
-                      <a href="https://scholar.google.com/citations?user=_zZGO-4AAAAJ&hl=en">Che-Kai Liu</a>,
-                      <a href="https://jiayi-19.github.io/">Jiayi Qian</a>,
-                      <a href="https://scholar.google.com/citations?user=zoMQ8CoAAAAJ&hl=en">Hanchen Yang</a>,
-                      <a href="https://scholar.google.com/citations?user=Uug6p-AAAAAJ&hl=en">Arijit Raychowdhury</a>,
-                      <a href="https://scholar.google.com/citations?user=P__ztgcAAAAJ&hl=en">Tushar Krishna</a>
-                      <br>
-                      <em>International Symposium on High-Performance Computer Architecture
-                        (<strong>HPCA</strong>)</em>, 2026
-                      <br>Paper (To appear)
-                      <br>
-                      <p></p>
-                      <p>REASON is an algorithm-system-architecture framework that accelerates the “slow-thinking”
-                        components of cognitive AI -- logical deduction, constraint solving, and probabilistic reasoning
-                        -- through common representation, reconfigurable architecture, and tight GPU integration for
-                        LLM+symbolic agentic workflows.</p>
-                    </td>
-                  </tr>
-
-                  <tr onmouseout="ff_stop()" onmouseover="ff_start()">
                     <td style="padding:20px;width:25%;vertical-align:top">
                       <div class="one">
                         <div class="two" id='ff_image'>
@@ -1069,7 +1071,7 @@
                       <br>Paper (To appear)
                       <br>
                       <p></p>
-                      <p>We tapeout a fully programmable heterogeneous SoC that integrates RRAM/SRAM to efficiently accelerate a broad class of neuro-symbolic workloads. 
+                      <p>We tape out a fully programmable heterogeneous SoC that integrates RRAM/SRAM to efficiently accelerate a broad class of neuro-symbolic workloads. 
                         The chip features integrated RRAM and SRAM neural-symbolic data paths, ultra-dense RRAM macros, scheduler-informed power management, and flexible programming support, demonstrating end-to-end silicon system for generalizable and efficient neuro-symbolic AI inference.</p>
                     </td>
                   </tr>
