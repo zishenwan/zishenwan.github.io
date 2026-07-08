@@ -91,6 +91,14 @@ a {
   font-size: 14px
 }
 
+body {
+  margin: 0;
+}
+
+td {
+  overflow-wrap: break-word;
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -112,6 +120,25 @@ name {
   font-size: 32px;
 }
 
+.intro-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.intro-name img {
+  height: auto;
+  vertical-align: middle;
+  transform: none;
+}
+
+.contact-info {
+  margin-top: 8px;
+  padding-left: 18%;
+  line-height: 1.35;
+}
+
 .one {
   width: 160px;
   height: 160px;
@@ -122,9 +149,15 @@ name {
   width: 160px;
   height: 160px;
   position: absolute;
+  opacity: 0;
+  pointer-events: none;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+tr:hover .two {
+  opacity: 1;
 }
 
 .fade {
@@ -194,4 +227,120 @@ span.highlight {
   font-weight: bold;
   margin-left: 0px;
   vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0 12px;
+  }
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong,
+  papertitle {
+    font-size: 15px;
+    line-height: 1.35;
+  }
+
+  name {
+    font-size: 30px;
+  }
+
+  heading {
+    font-size: 21px;
+  }
+
+  .intro-table,
+  .intro-table tbody,
+  .intro-table tr,
+  .intro-table td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .intro-bio {
+    padding: 20px 0 8px !important;
+  }
+
+  .intro-photo {
+    padding: 8px 0 20px !important;
+    text-align: center;
+  }
+
+  .intro-photo img {
+    width: min(62vw, 240px) !important;
+    max-width: 240px !important;
+  }
+
+  .intro-name {
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 18px;
+  }
+
+  .intro-name img {
+    width: 120px;
+    transform: none;
+  }
+
+  .contact-info {
+    margin-top: 10px;
+    padding-left: 0;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+
+  .publications-table,
+  .publications-table tbody,
+  .publications-table tr,
+  .publications-table td,
+  .books-table,
+  .books-table tbody,
+  .books-table tr,
+  .books-table td,
+  .artifacts-table,
+  .artifacts-table tbody,
+  .artifacts-table tr,
+  .artifacts-table td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .publications-table tr td:first-child,
+  .books-table tr td:first-child,
+  .artifacts-table tr td:first-child {
+    padding-bottom: 2px !important;
+    text-align: center;
+  }
+
+  .publications-table tr td:nth-child(2),
+  .books-table tr td:nth-child(2),
+  .artifacts-table tr td:nth-child(2) {
+    padding-top: 2px !important;
+  }
+
+  .publications-table .one,
+  .books-table .one,
+  .artifacts-table .one {
+    margin: 0 auto;
+  }
+
+  .one,
+  .two {
+    width: 130px;
+    height: 130px;
+  }
+
+  .one img {
+    max-width: 130px;
+    height: auto;
+  }
 }
