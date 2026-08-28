@@ -138,8 +138,11 @@ html {
 #research,
 #news,
 #publications,
-#outputs,
-#teaching {
+#awards,
+#talks,
+#teaching,
+#service,
+#media {
   scroll-margin-top: 78px;
 }
 
@@ -216,12 +219,6 @@ html {
   justify-content: flex-start;
   gap: 12px;
   margin: 0 0 4px;
-}
-
-.intro-name img {
-  height: auto;
-  vertical-align: middle;
-  transform: none;
 }
 
 .intro-table {
@@ -439,6 +436,16 @@ html {
   margin-bottom: 9px;
 }
 
+.news-archive > ul {
+  max-height: 440px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-top: 14px;
+  padding-right: 14px;
+  border-top: 1px solid #e1e8f0;
+  scrollbar-gutter: stable;
+}
+
 .publications-table td,
 .publications-table p,
 .publications-table a,
@@ -571,8 +578,11 @@ span.highlight {
   #research,
   #news,
   #publications,
-  #outputs,
-  #teaching {
+  #awards,
+  #talks,
+  #teaching,
+  #service,
+  #media {
     scroll-margin-top: 106px;
   }
 
@@ -637,15 +647,7 @@ span.highlight {
   }
 
   .intro-name {
-    align-items: center;
-    flex-direction: column;
-    gap: 2px;
     margin-bottom: 18px;
-  }
-
-  .intro-name img {
-    width: 120px;
-    transform: none;
   }
 
   .intro-role {
@@ -684,6 +686,10 @@ span.highlight {
   .research-details,
   .news-archive {
     padding: 11px 13px;
+  }
+
+  .news-archive > ul {
+    max-height: 360px;
   }
 
   .contact-info {
