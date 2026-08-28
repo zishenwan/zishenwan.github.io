@@ -583,12 +583,14 @@ html {
   font-weight: 700;
 }
 
-.work-resource {
-  margin: 10px 0 0;
+.work-summary-link {
+  margin: 0 0 10px;
+  color: #667085;
   font-size: 13px;
 }
 
-.work-resource a {
+.work-summary-link strong,
+.work-summary-link a {
   font-size: inherit;
   font-weight: 700;
 }
