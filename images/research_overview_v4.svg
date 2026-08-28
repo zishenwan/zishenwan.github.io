@@ -163,7 +163,7 @@
       <path d="M 1463 357 C 1477 314 1520 272 1578 262" marker-end="url(#arrow-teal)"/>
     </g>
 
-    <g id="understand-node">
+    <g id="understand-node" transform="translate(0 25)">
       <circle cx="1610" cy="250" r="42" fill="#FFFFFF" stroke="#0A8F8D" stroke-width="2"/>
       <circle cx="1604" cy="246" r="16" fill="none" stroke="#0A8F8D" stroke-width="3"/>
       <line x1="1616" y1="258" x2="1631" y2="273" stroke="#0A8F8D" stroke-width="3" stroke-linecap="round"/>

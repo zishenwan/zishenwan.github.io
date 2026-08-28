@@ -312,20 +312,6 @@ html {
   border-color: #17365d;
 }
 
-.profile-links .profile-secondary {
-  color: #5d6a79;
-  background: #f7f9fb;
-  border-color: #e1e7ee;
-  font-weight: 400;
-}
-
-.profile-links .profile-secondary:hover,
-.profile-links .profile-secondary:focus {
-  color: #ffffff;
-  background: #536b84;
-  border-color: #536b84;
-}
-
 .intro-photo {
   grid-column: 2;
   grid-row: 1 / span 2;
@@ -363,7 +349,7 @@ html {
 }
 
 .section-lead {
-  max-width: 880px;
+  max-width: none;
   margin: 0 0 24px;
   color: #374151;
   font-size: 18px;
@@ -422,13 +408,6 @@ html {
   height: auto;
 }
 
-.research-figure figcaption {
-  margin-top: 8px;
-  color: #6b7280;
-  font-size: 12px;
-  text-align: center;
-}
-
 .research-pillars {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -474,6 +453,14 @@ html {
   margin: 0;
   font-size: 15px;
   line-height: 1.5;
+}
+
+.research-pillar .pillar-ai-direction {
+  margin-top: 14px;
+  padding-top: 12px;
+  color: #354a60;
+  border-top: 1px solid #e2e8f0;
+  font-size: 13px;
 }
 
 .research-pillar .pillar-keywords {
@@ -536,12 +523,6 @@ html {
   font-weight: 700;
 }
 
-.work-count {
-  color: #718096;
-  font-size: 12px;
-  font-weight: 400;
-}
-
 .work-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -550,6 +531,27 @@ html {
   padding: 14px 0 0;
   border-top: 1px solid #e1e8f0;
   list-style: none;
+}
+
+.work-subgroups {
+  display: grid;
+  gap: 17px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #e1e8f0;
+}
+
+.work-subcategory h4 {
+  margin: 0 0 8px;
+  color: #3e5871;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.work-subcategory .work-list {
+  margin: 0;
+  padding: 0;
+  border-top: 0;
 }
 
 .work-list li {

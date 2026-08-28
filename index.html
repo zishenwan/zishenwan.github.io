@@ -100,8 +100,7 @@
                   <a href="data/CV_Zishen_Wan.pdf">CV</a>
                   <a href="mailto:zw3306@columbia.edu">Email</a>
                   <a href="https://github.com/zishenwan">GitHub</a>
-                  <a class="profile-secondary" href="https://www.linkedin.com/in/zishen-wan/">LinkedIn</a>
-                  <a class="profile-secondary" href="https://orcid.org/0000-0002-2982-5351">ORCID</a>
+                  <a href="https://www.linkedin.com/in/zishen-wan/">LinkedIn</a>
                 </nav>
               </div>
               <aside class="intro-photo">
@@ -151,8 +150,6 @@
                             alt="Research overview showing Computing for AI and AI for Computing across systems, computer architecture, and chips and VLSI."
                             loading="lazy">
                         </a>
-                        <figcaption>Computing for AI and AI for Computing across the full computing stack. Select the
-                          figure to view it at full size.</figcaption>
                       </figure>
                       <div class="research-pillars">
                         <article class="research-pillar systems-pillar">
@@ -160,6 +157,8 @@
                           <h3>AI Systems &amp; Cross-Layer Co-Design</h3>
                           <p>System support for emerging intelligence, including workload characterization, runtime and
                             serving systems, hardware and software co-design, and resilience.</p>
+                          <p class="pillar-ai-direction"><strong>AI for Systems:</strong> Agentic methods for system
+                            modeling, optimization, and operation.</p>
                           <p class="pillar-keywords">Agentic serving · Workload characterization · Reliability · System
                             co-design</p>
                         </article>
@@ -168,6 +167,8 @@
                           <h3>Architectures for Emerging Intelligence</h3>
                           <p>Domain-specific and adaptive architectures for embodied, neuro-symbolic, and reasoning
                             workloads, including accelerators, memory systems, and heterogeneous platforms.</p>
+                          <p class="pillar-ai-direction"><strong>AI for Computer Architecture:</strong> Agentic design
+                            space exploration, generation, and evaluation.</p>
                           <p class="pillar-keywords">Accelerators · Memory systems · Heterogeneous architecture</p>
                         </article>
                         <article class="research-pillar silicon-pillar">
@@ -175,6 +176,8 @@
                           <h3>AI Chips &amp; Memory-Centric Computing</h3>
                           <p>AI SoCs, FPGA prototypes, memory-centric architectures, and emerging-device circuits that
                             translate system and architecture ideas into working silicon.</p>
+                          <p class="pillar-ai-direction"><strong>AI for Chip Design:</strong> Agentic methods for
+                            hardware generation, optimization, and verification.</p>
                           <p class="pillar-keywords">SoCs · VLSI · FPGA · RRAM/SRAM · Emerging devices</p>
                         </article>
                       </div>
@@ -185,37 +188,84 @@
                         </div>
                         <div class="work-groups">
                           <details class="work-group systems-work-group">
-                            <summary><span>Systems</span><span class="work-count">6 works</span></summary>
-                            <ul class="work-list">
-                              <li><a href="https://arxiv.org/pdf/2607.02942"><strong>Dyserve</strong></a><span>Workflow-aware serving for agentic applications · 2026</span></li>
-                              <li><a href="https://arxiv.org/pdf/2512.18126"><strong>Faster-MoA</strong></a><span>Low-latency mixture-of-agents serving · DAC 2026</span></li>
-                              <li><a href="https://arxiv.org/pdf/2510.05077"><strong>SLM-Mux</strong></a><span>Small language model orchestration for reasoning · ICLR 2026</span></li>
-                              <li><a href="https://dl.acm.org/doi/pdf/10.1145/3779212.3790147"><strong>CREATE</strong></a><span>Cross-layer resilience for embodied AI · ASPLOS 2026</span></li>
-                              <li><a href="publication/ISPASS26_EBM_Characterization.pdf"><strong>Towards System-2 AI</strong></a><span>Energy-based model characterization · ISPASS 2026</span></li>
-                              <li><a href="publication/DATE26_FortiSky.pdf"><strong>FortiSky</strong></a><span>Reliable autonomous-machine systems · DATE 2026</span></li>
-                            </ul>
+                            <summary>Systems</summary>
+                            <div class="work-subgroups">
+                              <section class="work-subcategory">
+                                <h4>Systems for Physical AI</h4>
+                                <ul class="work-list">
+                                  <li><a href="https://dl.acm.org/doi/pdf/10.1145/3779212.3790147"><strong>CREATE</strong></a><span>Cross-layer resilience for embodied AI · ASPLOS 2026</span></li>
+                                  <li><a href="https://dl.acm.org/doi/pdf/10.1145/3676641.3716016"><strong>ReCA</strong></a><span>Cooperative embodied-agent acceleration · ASPLOS 2025</span></li>
+                                </ul>
+                              </section>
+                              <section class="work-subcategory">
+                                <h4>Systems for Agentic AI and Serving</h4>
+                                <ul class="work-list">
+                                  <li><a href="https://arxiv.org/pdf/2607.02942"><strong>Dyserve</strong></a><span>Workflow-aware serving for agentic applications · 2026</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2512.18126"><strong>Faster-MoA</strong></a><span>Low-latency mixture-of-agents serving · DAC 2026</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2510.05077"><strong>SLM-Mux</strong></a><span>Small language model orchestration for reasoning · ICLR 2026</span></li>
+                                </ul>
+                              </section>
+                              <section class="work-subcategory">
+                                <h4>Workload Characterization and System Resilience</h4>
+                                <ul class="work-list">
+                                  <li><a href="publication/ISPASS26_EBM_Characterization.pdf"><strong>Towards System-2 AI</strong></a><span>Energy-based model characterization · ISPASS 2026</span></li>
+                                  <li><a href="publication/DATE26_FortiSky.pdf"><strong>FortiSky</strong></a><span>Reliable autonomous-machine systems · DATE 2026</span></li>
+                                </ul>
+                              </section>
+                            </div>
                           </details>
                           <details class="work-group architecture-work-group">
-                            <summary><span>Computer Architecture</span><span class="work-count">6 works</span></summary>
-                            <ul class="work-list">
-                              <li><strong>Arborist</strong><span>Motion-planning acceleration · MICRO 2026</span></li>
-                              <li><a href="https://arxiv.org/pdf/2601.20784"><strong>REASON</strong></a><span>Neuro-symbolic reasoning acceleration · HPCA 2026</span></li>
-                              <li><a href="https://dl.acm.org/doi/pdf/10.1145/3760250.3762235"><strong>Compositional AI Beyond LLMs</strong></a><span>Neuro-symbolic system architecture · ASPLOS 2026</span></li>
-                              <li><a href="https://arxiv.org/pdf/2607.03601"><strong>ArchEval</strong></a><span>Measuring AI agents as computer architects · ISCA Workshop 2026</span></li>
-                              <li><a href="https://arxiv.org/pdf/2510.06644"><strong>RTGS</strong></a><span>Real-time 3D Gaussian splatting SLAM · MICRO 2025</span></li>
-                              <li><a href="https://dl.acm.org/doi/pdf/10.1145/3676641.3716016"><strong>ReCA</strong></a><span>Cooperative embodied-agent acceleration · ASPLOS 2025</span></li>
-                            </ul>
+                            <summary>Computer Architecture</summary>
+                            <div class="work-subgroups">
+                              <section class="work-subcategory">
+                                <h4>Architectures for Neuro-Symbolic and Cognitive AI</h4>
+                                <ul class="work-list">
+                                  <li><a href="https://arxiv.org/pdf/2601.20784"><strong>REASON</strong></a><span>Neuro-symbolic reasoning acceleration · HPCA 2026</span></li>
+                                  <li><a href="https://dl.acm.org/doi/pdf/10.1145/3760250.3762235"><strong>Compositional AI Beyond LLMs</strong></a><span>Neuro-symbolic system architecture · ASPLOS 2026</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2503.01162"><strong>CogSys</strong></a><span>Neuro-symbolic workload and architecture co-design · HPCA 2025</span></li>
+                                </ul>
+                              </section>
+                              <section class="work-subcategory">
+                                <h4>Architectures for Physical AI and Autonomous Systems</h4>
+                                <ul class="work-list">
+                                  <li><strong>Arborist</strong><span>Motion-planning acceleration · MICRO 2026</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2510.06644"><strong>RTGS</strong></a><span>Real-time 3D Gaussian splatting SLAM · MICRO 2025</span></li>
+                                  <li><a href="https://dl.acm.org/doi/pdf/10.1145/3676641.3716263"><strong>OctoCache</strong></a><span>3D occupancy mapping acceleration · ASPLOS 2025</span></li>
+                                </ul>
+                              </section>
+                            </div>
                             <p class="work-resource">Research overview: <a href="https://effi-nesy.github.io/">Efficient Neuro-Symbolic AI Computing</a></p>
                           </details>
                           <details class="work-group silicon-work-group">
-                            <summary><span>Chips &amp; VLSI</span><span class="work-count">6 works</span></summary>
-                            <ul class="work-list">
-                              <li><a href="publication/JSSC26_NSAI_Chip.pdf"><strong>Programmable Heterogeneous RRAM/SRAM SoC</strong></a><span>Neuro-symbolic AI acceleration · JSSC 2026</span></li>
-                              <li><a href="publication/FCCM26_Ferro3D_FPGA.pdf"><strong>Context-Switchable Monolithic 3D FPGA</strong></a><span>Ferroelectric inverter design · FCCM 2026</span></li>
-                              <li><a href="https://arxiv.org/pdf/2504.14020"><strong>HyDra</strong></a><span>SOT-CAM vector-symbolic macro · ICCAD 2025</span></li>
-                              <li><a href="https://arxiv.org/pdf/2404.04173.pdf"><strong>H3DFACT</strong></a><span>Heterogeneous 3D integrated computing · DATE 2024</span></li>
-                              <li><a href="https://ieeexplore.ieee.org/abstract/document/10210581"><strong>Heterogeneous RRAM/SRAM SoC</strong></a><span>Frame and event-based tracking · JSSC 2023</span></li>
-                              <li><a href="https://arxiv.org/pdf/2310.04940.pdf"><strong>SEE-MCAM</strong></a><span>Multi-bit FeFET associative search · ICCAD 2023</span></li>
+                            <summary>Chips &amp; VLSI</summary>
+                            <div class="work-subgroups">
+                              <section class="work-subcategory">
+                                <h4>AI SoCs and Tapeouts</h4>
+                                <ul class="work-list">
+                                  <li><a href="publication/JSSC26_NSAI_Chip.pdf"><strong>Programmable Heterogeneous RRAM/SRAM SoC</strong></a><span>Neuro-symbolic AI acceleration · JSSC 2026</span></li>
+                                  <li><a href="https://ieeexplore.ieee.org/abstract/document/10210581"><strong>Heterogeneous RRAM/SRAM SoC</strong></a><span>Frame and event-based tracking · JSSC 2023</span></li>
+                                </ul>
+                              </section>
+                              <section class="work-subcategory">
+                                <h4>Memory-Centric and Emerging-Device Computing</h4>
+                                <ul class="work-list">
+                                  <li><a href="publication/FCCM26_Ferro3D_FPGA.pdf"><strong>Context-Switchable Monolithic 3D FPGA</strong></a><span>Ferroelectric inverter design · FCCM 2026</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2504.14020"><strong>HyDra</strong></a><span>SOT-CAM vector-symbolic macro · ICCAD 2025</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2404.04173.pdf"><strong>H3DFACT</strong></a><span>Heterogeneous 3D integrated computing · DATE 2024</span></li>
+                                  <li><a href="https://arxiv.org/pdf/2310.04940.pdf"><strong>SEE-MCAM</strong></a><span>Multi-bit FeFET associative search · ICCAD 2023</span></li>
+                                </ul>
+                              </section>
+                            </div>
+                          </details>
+                          <details class="work-group agentic-design-work-group">
+                            <summary>Agentic AI for Computing System Design</summary>
+                            <ul class="work-list cross-stack-work-list">
+                              <li><a href="https://arxiv.org/pdf/2607.03601"><strong>ArchEval</strong></a><span>Measuring AI agents as computer architects · ISCA Workshop 2026</span></li>
+                              <li><a href="https://arxiv.org/pdf/2606.21836"><strong>AgentDSE</strong></a><span>Reasoning-augmented architectural exploration · ISCA Workshop 2026</span></li>
+                              <li><a href="https://arxiv.org/pdf/2602.15241"><strong>GenAI for Systems</strong></a><span>Design principles from software to silicon · 2026</span></li>
+                              <li><a href="https://arxiv.org/pdf/2608.02915"><strong>LACE</strong></a><span>LLM-aided RISC-V instruction extension · ICLAD 2026</span></li>
+                              <li><a href="https://arxiv.org/pdf/2510.22087"><strong>QuArch</strong></a><span>Evaluating LLM reasoning in computer architecture · ICML 2026</span></li>
+                              <li><a href="https://arxiv.org/pdf/2601.20267"><strong>SATA</strong></a><span>Generative AI hardware optimization · DATE 2026</span></li>
                             </ul>
                           </details>
                         </div>
