@@ -575,6 +575,14 @@ html {
   line-height: 1.4;
 }
 
+.work-list span.work-venue {
+  display: inline;
+  margin: 0;
+  color: #3e5871;
+  font-size: inherit;
+  font-weight: 700;
+}
+
 .work-resource {
   margin: 10px 0 0;
   font-size: 13px;
