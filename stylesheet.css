@@ -213,17 +213,31 @@ html {
   padding-bottom: 38px !important;
 }
 
+.intro-section {
+  box-sizing: border-box;
+  margin: 24px auto 12px;
+  padding: 26px;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 300px);
+  column-gap: 40px;
+  align-items: start;
+}
+
+.intro-header {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 .intro-name {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 12px;
   margin: 0 0 4px;
 }
 
-.intro-table {
-  margin-top: 24px !important;
-  margin-bottom: 12px !important;
+.intro-bio {
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .intro-role {
@@ -298,12 +312,32 @@ html {
   border-color: #17365d;
 }
 
+.profile-links .profile-secondary {
+  color: #5d6a79;
+  background: #f7f9fb;
+  border-color: #e1e7ee;
+  font-weight: 400;
+}
+
+.profile-links .profile-secondary:hover,
+.profile-links .profile-secondary:focus {
+  color: #ffffff;
+  background: #536b84;
+  border-color: #536b84;
+}
+
 .intro-photo {
-  vertical-align: top !important;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  justify-self: end;
+  width: 100%;
+  max-width: 300px;
 }
 
 .intro-photo > a > img {
   display: block;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 28px rgba(23, 54, 93, 0.14);
@@ -617,37 +651,43 @@ span.highlight {
   }
 
   .section-table > tbody > tr > td,
-  .site-shell > tbody > tr > td > table:not(.intro-table) > tbody > tr > td {
+  .site-shell > tbody > tr > td > table > tbody > tr > td {
     padding-right: 16px !important;
     padding-left: 16px !important;
   }
 
-  .intro-table,
-  .intro-table tbody,
-  .intro-table tr,
-  .intro-table td {
-    display: block;
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
+  .intro-section {
+    margin-top: 12px;
+    padding: 20px 16px;
   }
 
-  .intro-bio {
-    padding: 20px 16px 8px !important;
+  .intro-grid {
+    grid-template-columns: 1fr;
+    column-gap: 0;
   }
 
-  .intro-photo {
-    padding: 8px 16px 20px !important;
+  .intro-header {
+    grid-column: 1;
+    grid-row: 1;
     text-align: center;
   }
 
-  .intro-photo img {
-    width: min(62vw, 240px) !important;
-    max-width: 240px !important;
+  .intro-photo {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    width: min(62vw, 260px);
+    max-width: 260px;
+    margin: 8px 0 24px;
   }
 
   .intro-name {
-    margin-bottom: 18px;
+    margin-bottom: 4px;
+  }
+
+  .intro-bio {
+    grid-column: 1;
+    grid-row: 3;
   }
 
   .intro-role {
