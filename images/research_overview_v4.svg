@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920" height="820" viewBox="0 0 1920 820">
-  <title>AI-Native Computing Research Overview</title>
-  <desc>Computing for AI and AI for Computing connected through cross-stack co-design across systems, architecture, and silicon.</desc>
+  <title>Computing for AI and AI for Computing Research Overview</title>
+  <desc>Two complementary research directions connected through cross-stack co-design across systems, computer architecture, and chips and VLSI.</desc>
 
   <defs>
     <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
@@ -15,8 +15,8 @@
   <rect id="background" x="0" y="0" width="1920" height="820" fill="#FFFFFF"/>
 
   <g id="header" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-style="normal" font-stretch="normal" text-anchor="middle">
-    <text x="960" y="70" font-size="54" fill="#10213A">AI-Native Computing</text>
-    <text x="960" y="116" font-size="27" fill="#33465F">Hardware for AI ↔ AI for Hardware</text>
+    <text x="960" y="70" font-size="54" fill="#10213A">Computing for AI and AI for Computing</text>
+    <text x="960" y="116" font-size="27" fill="#33465F">Two Complementary Directions Across the Computing Stack</text>
   </g>
 
   <g id="computing-for-ai">
@@ -39,7 +39,7 @@
         <rect x="178" y="244" width="24" height="24" rx="3" fill="#FFFFFF"/>
       </g>
       <text x="245" y="249" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="400" font-style="normal" font-stretch="normal" fill="#10213A">
-        <tspan x="245" dy="0">Physical &amp;</tspan>
+        <tspan x="245" dy="0">Physical and</tspan>
         <tspan x="245" dy="31">Embodied AI</tspan>
       </text>
     </g>
@@ -145,7 +145,7 @@
         <line x1="859" y1="464" x2="866" y2="464"/>
         <line x1="859" y1="476" x2="866" y2="476"/>
       </g>
-      <text x="980" y="468" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="400" font-style="normal" font-stretch="normal" text-anchor="middle" fill="#10213A">Silicon</text>
+      <text x="980" y="468" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="400" font-style="normal" font-stretch="normal" text-anchor="middle" fill="#10213A">Chips / VLSI</text>
     </g>
   </g>
 

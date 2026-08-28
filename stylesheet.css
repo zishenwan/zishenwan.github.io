@@ -363,20 +363,70 @@ html {
 }
 
 .section-lead {
-  max-width: 900px;
+  max-width: 880px;
   margin: 0 0 24px;
   color: #374151;
   font-size: 18px;
 }
 
+.research-directions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 22px;
+}
+
+.research-direction {
+  padding: 18px 20px;
+  background: #f5f9fc;
+  border: 1px solid #d7e2ee;
+  border-left: 4px solid #1d5fbf;
+  border-radius: 8px;
+}
+
+.ai-for-computing-direction {
+  border-left-color: #0a8f8d;
+}
+
+.direction-label {
+  color: #60758a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-direction h3 {
+  margin: 6px 0 7px;
+  color: #17365d;
+  font-size: 20px;
+}
+
+.research-direction p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 .research-figure {
-  margin: 26px 0 30px;
+  margin: 22px 0 28px;
+}
+
+.research-figure a {
+  display: block;
 }
 
 .research-figure img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.research-figure figcaption {
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 12px;
+  text-align: center;
 }
 
 .research-pillars {
@@ -387,6 +437,8 @@ html {
 }
 
 .research-pillar {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   background: #ffffff;
   border: 1px solid #d7e2ee;
@@ -420,42 +472,117 @@ html {
 
 .research-pillar p {
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
 .research-pillar .pillar-keywords {
-  margin-top: 14px;
+  margin-top: auto;
+  padding-top: 14px;
   color: #5d6a79;
   font-size: 12px;
   font-weight: 700;
 }
 
-.cross-stack-note {
-  margin: 18px 0;
-  padding: 12px 16px;
-  color: #17365d;
-  background: #f5f9fc;
-  border-radius: 8px;
+.representative-work {
+  margin-top: 26px;
 }
 
-.research-details,
+.representative-work-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+
+.representative-work-header h3 {
+  margin: 0;
+  color: #17365d;
+  font-size: 21px;
+}
+
+.representative-work-header a {
+  flex: 0 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.work-groups {
+  display: grid;
+  gap: 10px;
+}
+
+.work-group,
 .news-archive {
-  margin: 16px 0;
   padding: 12px 16px;
   background: #fafbfd;
   border: 1px solid #dce5ef;
   border-radius: 8px;
 }
 
-.research-details summary,
+.news-archive {
+  margin: 16px 0;
+}
+
+.work-group summary,
 .news-archive summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   color: #17365d;
   cursor: pointer;
   font-weight: 700;
 }
 
-.research-details > ul,
+.work-count {
+  color: #718096;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px 12px;
+  margin: 14px 0 0;
+  padding: 14px 0 0;
+  border-top: 1px solid #e1e8f0;
+  list-style: none;
+}
+
+.work-list li {
+  min-width: 0;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #e4eaf1;
+  border-radius: 7px;
+}
+
+.work-list a,
+.work-list strong {
+  font-size: 14px;
+}
+
+.work-list span {
+  display: block;
+  margin-top: 3px;
+  color: #667085;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.work-resource {
+  margin: 10px 0 0;
+  font-size: 13px;
+}
+
+.work-resource a {
+  font-size: inherit;
+  font-weight: 700;
+}
+
 .news-archive > ul {
   margin-top: 14px;
 }
@@ -715,6 +842,24 @@ span.highlight {
     font-size: 16px;
   }
 
+  .research-directions {
+    grid-template-columns: 1fr;
+  }
+
+  .research-figure {
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .research-figure a {
+    width: max-content;
+  }
+
+  .research-figure img {
+    width: 760px;
+    max-width: none;
+  }
+
   .research-pillars {
     grid-template-columns: 1fr;
   }
@@ -723,7 +868,17 @@ span.highlight {
     padding: 18px;
   }
 
-  .research-details,
+  .representative-work-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .work-list {
+    grid-template-columns: 1fr;
+  }
+
+  .work-group,
   .news-archive {
     padding: 11px 13px;
   }
