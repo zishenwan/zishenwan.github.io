@@ -4,10 +4,13 @@
   <desc>Two complementary research directions connected through cross-stack co-design across systems, computer architecture, and chips and VLSI.</desc>
 
   <defs>
-    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <marker id="arrow-blue-outer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="34" markerHeight="34" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1D5FBF"/>
     </marker>
-    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <marker id="arrow-teal-outer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="34" markerHeight="34" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0A8F8D"/>
+    </marker>
+    <marker id="arrow-teal-inner" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="27" markerHeight="27" markerUnits="userSpaceOnUse" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0A8F8D"/>
     </marker>
   </defs>
@@ -83,7 +86,7 @@
       </text>
     </g>
 
-    <path d="M 550 255 H 620 V 370 H 688" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+    <path d="M 550 255 H 620 V 370 H 688" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue-outer)"/>
     <path d="M 550 370 H 620" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round"/>
     <path d="M 550 485 H 620 V 370" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
@@ -149,7 +152,7 @@
     </g>
   </g>
 
-  <line x1="1228" y1="370" x2="1322" y2="370" stroke="#0A8F8D" stroke-width="5" marker-start="url(#arrow-blue)" marker-end="url(#arrow-teal)"/>
+  <line x1="1228" y1="370" x2="1322" y2="370" stroke="#0A8F8D" stroke-width="4" marker-start="url(#arrow-blue-outer)" marker-end="url(#arrow-teal-outer)"/>
 
   <g id="ai-for-computing">
     <rect x="1330" y="160" width="560" height="420" rx="22" fill="#FFFFFF" stroke="#0A8F8D" stroke-width="2"/>
@@ -157,10 +160,10 @@
     <text x="1610" y="166" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="400" font-style="normal" font-stretch="normal" text-anchor="middle" fill="#FFFFFF">AI for Computing</text>
 
     <g id="agentic-design-loop" fill="none" stroke="#0A8F8D" stroke-width="4" stroke-linecap="round">
-      <path d="M 1642 262 C 1700 272 1744 314 1757 357" marker-end="url(#arrow-teal)"/>
-      <path d="M 1750 414 C 1734 454 1694 480 1647 487" marker-end="url(#arrow-teal)"/>
-      <path d="M 1573 487 C 1526 480 1487 454 1470 414" marker-end="url(#arrow-teal)"/>
-      <path d="M 1463 357 C 1477 314 1520 272 1578 262" marker-end="url(#arrow-teal)"/>
+      <path d="M 1658 275 C 1708 280 1752 305 1765 337" marker-end="url(#arrow-teal-inner)"/>
+      <path d="M 1765 433 C 1752 465 1708 494 1658 500" marker-end="url(#arrow-teal-inner)"/>
+      <path d="M 1562 500 C 1512 494 1468 465 1455 433" marker-end="url(#arrow-teal-inner)"/>
+      <path d="M 1455 337 C 1468 305 1512 280 1562 275" marker-end="url(#arrow-teal-inner)"/>
     </g>
 
     <g id="understand-node" transform="translate(0 25)">
@@ -209,7 +212,7 @@
     </g>
   </g>
 
-  <text x="960" y="615" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="400" font-style="normal" font-stretch="normal" text-anchor="middle" fill="#1D5FBF">Co-Design • Co-Reasoning • Co-Evolution</text>
+  <text x="960" y="615" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="400" font-style="normal" font-stretch="normal" text-anchor="middle" fill="#1D5FBF">Co-Design • Co-Reasoning • Co-Evolution</text>
 
   <g id="outcomes">
     <rect x="100" y="660" width="1720" height="105" rx="18" fill="#FAFCFF" stroke="#6EA8E8" stroke-width="2"/>
