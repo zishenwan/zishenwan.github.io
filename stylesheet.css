@@ -290,8 +290,9 @@ html {
 }
 
 .recruiting-callout a {
-  display: inline-block;
-  margin-left: 4px;
+  display: block;
+  width: fit-content;
+  margin-top: 6px;
   font-weight: 700;
 }
 
