@@ -1748,40 +1748,6 @@ span.highlight {
     text-align: left;
     white-space: normal;
   }
-}
-
-@media (max-width: 700px) {
-  body {
-    padding: 0;
-  }
-
-  body,
-  p,
-  a,
-  strong {
-    font-size: 15px;
-    line-height: 1.35;
-  }
-
-  .intro-name {
-    font-size: 30px;
-  }
-
-  .section-title {
-    font-size: 25px;
-  }
-
-  #about,
-  #research,
-  #news,
-  #publications,
-  #awards,
-  #talks,
-  #teaching,
-  #service,
-  #media {
-    scroll-margin-top: 76px;
-  }
 
   .site-nav-inner {
     align-items: center;
@@ -1863,6 +1829,40 @@ span.highlight {
 
   .site-nav.menu-open .site-nav-toggle-icon i:last-child {
     transform: translateY(-5px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0;
+  }
+
+  body,
+  p,
+  a,
+  strong {
+    font-size: 15px;
+    line-height: 1.35;
+  }
+
+  .intro-name {
+    font-size: 30px;
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+
+  #about,
+  #research,
+  #news,
+  #publications,
+  #awards,
+  #talks,
+  #teaching,
+  #service,
+  #media {
+    scroll-margin-top: 76px;
   }
 
   .site-shell {
