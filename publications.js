@@ -12,7 +12,7 @@
   var empty = document.getElementById('publication-empty');
 
   var state = {
-    view: 'all',
+    view: 'selected',
     topic: 'all',
     year: 'all',
     query: ''
