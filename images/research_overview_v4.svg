@@ -4,13 +4,16 @@
   <desc>Two complementary research directions connected through cross-stack co-design across systems, computer architecture, and chips and VLSI.</desc>
 
   <defs>
-    <marker id="arrow-blue-outer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="34" markerHeight="34" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+    <marker id="arrow-blue-feedback" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="22" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1D5FBF"/>
     </marker>
-    <marker id="arrow-teal-outer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="34" markerHeight="34" markerUnits="userSpaceOnUse" orient="auto">
+    <marker id="arrow-blue-outer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="22" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1D5FBF"/>
+    </marker>
+    <marker id="arrow-teal-outer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="22" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0A8F8D"/>
     </marker>
-    <marker id="arrow-teal-inner" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="27" markerHeight="27" markerUnits="userSpaceOnUse" orient="auto">
+    <marker id="arrow-teal-inner" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="20" markerHeight="20" markerUnits="userSpaceOnUse" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0A8F8D"/>
     </marker>
   </defs>
@@ -88,9 +91,9 @@
       </text>
     </g>
 
-    <path d="M 550 255 H 620 V 370 H 688" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue-outer)"/>
-    <path d="M 550 370 H 620" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round"/>
-    <path d="M 550 485 H 620 V 370" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 550 255 H 620 V 370 H 688" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#arrow-blue-feedback)" marker-end="url(#arrow-blue-outer)"/>
+    <path d="M 550 370 H 620" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" marker-start="url(#arrow-blue-feedback)"/>
+    <path d="M 550 485 H 620 V 370" fill="none" stroke="#1D5FBF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#arrow-blue-feedback)"/>
   </g>
 
   <g id="cross-stack-co-design">
